@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "id": "human-p5-benchmark-2026-04",
+    "title": "Part 5 — human-authored benchmark (30 items)",
+    "createdAt": "2026-04-18T12:00:00.000Z",
+    "version": 1,
+    "notes": "Handwritten for quality comparison with Ollama; verify keys before study."
+  },
+  "items": [
+    {
+      "id": "p5-001",
+      "part": 5,
+      "prompt": "Unless the invoice ------- by noon, we cannot authorize the release of inventory.",
+      "options": ["is paid", "will be paid", "has been paid", "was paid"],
+      "correctIndex": 0,
+      "explanation": "After unless, present tense can express future condition; will be paid misreads unless as a main clause promise.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "unless"],
+      "analysisSteps": [
+        "This Grammar - Tense item checks the verb inside the unless clause when the matrix clause uses future-related limitation on the warehouse release tied to payment timing.",
+        "The opening signal is \"Unless the invoice\" plus the gap—here the subordinate clause must state the condition under which release stays blocked, not a future promise about paying later.",
+        "A strong test-taker might pick B will be paid because future payment sounds natural, but that turns the unless clause into an odd sequence rather than a single present condition for authorization.",
+        "Option B adds unnecessary future auxiliary inside the condition; option C has been paid is aspectually heavy where a simple state of payment by the deadline matters; both clash with the unless-time frame beside noon.",
+        "The correct wording is is paid because it states the condition plainly; contrast with option B where will be paid shifts the grammar away from the standard unless + present pattern for stipulated deadlines."
+      ]
+    },
+    {
+      "id": "p5-002",
+      "part": 5,
+      "prompt": "The procurement director asked vendors to ------- all bids electronically before Friday at 5 p.m.",
+      "options": ["submit", "submits", "submitting", "submission"],
+      "correctIndex": 0,
+      "explanation": "After to the bare infinitive submit is required with implied subject vendors.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "infinitive"],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the form after to when vendors is the logical subject of the infinitive inside the reported request about electronic bids.",
+        "Focus near the gap: \"asked vendors to\" shows an infinitive slot where the same lexical verb base should follow without an agreement suffix tied to director.",
+        "People sometimes choose submitting because -ing feels active, but asked already sets to + base verb for the requested action list.",
+        "Letter C submitting keeps -ing where the structure expects base submit after to; letter D submission is a noun where a verb phrase is required after to.",
+        "Choose submit as the exact string after to; compare with submission which cannot act as the bare action verb form required in this director instruction."
+      ]
+    },
+    {
+      "id": "p5-003",
+      "part": 5,
+      "prompt": "Due to ------- delays along the coastal route, the delivery window will shift to next Tuesday.",
+      "options": ["persistent", "persistence", "persistently", "persist"],
+      "correctIndex": 0,
+      "explanation": "Due to + noun phrase needs an adjective modifying delays; persistently is adverb; persistence and persist are wrong category.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "due-to"],
+      "analysisSteps": [
+        "This Grammar - Word Form question controls how due to leads into a nominal phrase naming the delays affecting the coastal delivery estimate.",
+        "The fragment \"Due to\" expects a modifier for delays — quote the phrase with delays to anchor the decision on the head noun rather than a free-floating adverb.",
+        "Readers may want persistently because it emphasizes ongoing trouble, but it cannot directly modify delays without awkward stacking compared with adjective persistent.",
+        "Option B persistence is a noun that would force a different phrase shape; option D persist is a verb form that cannot sit where an attributive modifier before delays is needed.",
+        "persistent fits as the exact adjective spelling before delays; contrast persist which is verbal and cannot occupy that attributive slot here."
+      ]
+    },
+    {
+      "id": "p5-004",
+      "part": 5,
+      "prompt": "The contract stipulates that either party may terminate the agreement ------- thirty days written notice.",
+      "options": ["with", "by", "after", "within"],
+      "correctIndex": 0,
+      "explanation": "Standard collocation: terminate with notice (instrument/means), not by thirty days.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "preposition"],
+      "analysisSteps": [
+        "This vocabulary item tests the preposition packaging termination rights with the formal channel described thirty days written notice.",
+        "The legal tone appears around \"terminate the agreement\" where business contracts usually specify notice mechanics rather than calendar endpoints alone.",
+        "Some examinees grab after notice imagining sequence, but the sentence needs how termination happens in relation to notice, not a later vague moment.",
+        "Option B by often pairs with agent phrases, not this notice packaging; option C after suggests post-notice instant termination without the required parallel structure here.",
+        "with carries the sense of accompanying notice as required; compare with after which fails the contract register for paired notice instruments in policy drafts."
+      ]
+    },
+    {
+      "id": "p5-005",
+      "part": 5,
+      "prompt": "Management will not ------- the budget increase unless the risk committee signs off first.",
+      "options": ["sign off on", "signing off on", "signed off on", "sign-off on"],
+      "correctIndex": 0,
+      "explanation": "Modal will + bare infinitive: sign off as verb phrase without -ing or past.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "modal"],
+      "analysisSteps": [
+        "This Grammar - Word Form problem tests what may follow the negative modal will not before an idiomatic phrasal chunk about budgets.",
+        "Quote structure around \"Management will not\" to see that the gap needs the base verb cluster that completes the predicate without an extra finite marker.",
+        "Test-takers may select signing off on because the progressive feels emphatic, yet will not already needs a plain infinitive complement.",
+        "Option B signing off on supplies an -ing where a base form is mandatory; option C signed off on reads like an inappropriate tense chunk after will not.",
+        "sign off on is the exact multiword string needed; contrast signing off on which keeps the wrong nonfinite shape for this modal frame."
+      ]
+    },
+    {
+      "id": "p5-006",
+      "part": 5,
+      "prompt": "The team finalized the slide deck, ------- that every chart referenced audited figures.",
+      "options": ["ensuring", "to ensure", "ensures", "ensure"],
+      "correctIndex": 0,
+      "explanation": "Participial clause explaining result: ensuring, parallel to the main clause subject team.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "participle"],
+      "analysisSteps": [
+        "This Grammar - Word Form item examines how the sentence adds a result clause after finalizing the slide deck about audited figures.",
+        "Anchor on \"finalized the slide deck\" — the following modifier should show concurrent outcome control without introducing another full finite verb for team again.",
+        "People often pick to ensure thinking purpose, but a comma-style elaboration here favors a participial lead ensuring that explains the quality check.",
+        "Option B to ensure can work in some decks but creates a different structural hook; option C ensures would need a subject and clashes with punctuation.",
+        "ensuring is the exact -ing form matching this supplement; compare ensure which would be bare and cannot open this clause after the comma before the gap."
+      ]
+    },
+    {
+      "id": "p5-007",
+      "part": 5,
+      "prompt": "Client feedback suggests that the onboarding portal should be more ------- for first-time applicants.",
+      "options": ["intuitive", "intuitively", "intuition", "intuit"],
+      "correctIndex": 0,
+      "explanation": "Comparative more + adjective intuitive; intuition is noun; intuitively adverb misplaces form.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "comparative"],
+      "analysisSteps": [
+        "This Grammar - Word Form question asks for the adjective after comparative more when describing an onboarding portal quality for first-time applicants.",
+        "Pull wording from \"more\" plus gap — the slot must be gradable adjective, not an adverb describing how HR staff acts.",
+        "Learners sometimes choose intuitively because adverbs feel vivid, but more already expects an adjective head for the portal itself.",
+        "Option B intuitively is adverb sized wrong for the predicate adjective slot; option C intuition is a noun where adjective sense is mandatory after more.",
+        "intuitive is the precise adjective spelling; contrast intuition which is nominal and cannot follow more in this comparative frame."
+      ]
+    },
+    {
+      "id": "p5-008",
+      "part": 5,
+      "prompt": "The merger is subject to ------- regulatory approval in both jurisdictions before any funds may transfer.",
+      "options": ["final", "finally", "finalize", "finalized"],
+      "correctIndex": 0,
+      "explanation": "Subject to + adjective + noun: final regulatory approval.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "subject-to"],
+      "analysisSteps": [
+        "This item targets the pattern after subject to when naming the regulatory hurdle before cross-border fund movement.",
+        "The fixed frame \"subject to\" introduces the gap before \"regulatory approval\" so you need an adjective that can stack naturally with that compound approval noun in both jurisdictions.",
+        "Some pick finally because it sounds emphatic, but finally is an adverb and cannot premodify regulatory approval here.",
+        "Option C finalize is a verb where an adjective slot precedes the compound noun; option D finalized is past participle adjective implying completed state prematurely.",
+        "final is the exact adjective string; compare finalize which is the verb form not fitting between subject to and regulatory approval."
+      ]
+    },
+    {
+      "id": "p5-009",
+      "part": 5,
+      "prompt": "------- the quarterly targets were missed, leadership still expanded the internship cohort.",
+      "options": ["Although", "Despite", "However", "Therefore"],
+      "correctIndex": 0,
+      "explanation": "Subordinate clause with finite verb needs subordinator Although; Despite needs noun phrase.",
+      "focus": "Grammar - Connector",
+      "tags": ["grammar", "contrast"],
+      "analysisSteps": [
+        "This Grammar - Connector problem links a concessive fact about missed quarterly targets to a surprising expansion of internships inside leadership decisions.",
+        "The opening gap precedes a full clause \"the quarterly targets were missed\" requiring a subordinator rather than a preposition-noun bundle alone.",
+        "Many choose Despite because contrast feels right, but despite must be followed by a noun or gerund chunk, not a subject-verb clause starting the way shown.",
+        "Option B Despite cannot head a finite clause opener; option C However is adverbial and would need punctuation patterns unlike although leading directly into a clause.",
+        "Although is the exact connector string; contrast Despite which cannot introduce this finite clause after the gap position at sentence front."
+      ]
+    },
+    {
+      "id": "p5-010",
+      "part": 5,
+      "prompt": "The facility upgrade is scheduled to conclude ------- the end of the fiscal year, absent further supply shocks.",
+      "options": ["by", "until", "since", "while"],
+      "correctIndex": 0,
+      "explanation": "by the end = deadline completion; until focuses on duration through endpoint.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "time"],
+      "analysisSteps": [
+        "This vocabulary timing item sets a completion boundary for the facility upgrade relative to the fiscal calendar and supply risk.",
+        "The phrase \"the end of the fiscal year\" pairs with deadlines where finish-by semantics differ from stretch during semantics.",
+        "People may pick until imagining the work continuing across the year, yet the upgrade is slated to finish rather than run up continuously through that phrase alone.",
+        "Option B until suggests ongoing action through the endpoint without the natural completion-at-deadline nuance; option C since anchors a start, not a finish.",
+        "by states completion no later than that endpoint; compare with until which misreads the scheduler language around conclude for this upgrade window."
+      ]
+    },
+    {
+      "id": "p5-011",
+      "part": 5,
+      "prompt": "The sales lead attributed the shortfall ------- delayed shipments from the overseas plant.",
+      "options": ["to", "for", "with", "into"],
+      "correctIndex": 0,
+      "explanation": "Attribute X to Y is fixed collocation.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "collocation"],
+      "analysisSteps": [
+        "This vocabulary collocations test pairs the reporting verb attributed with the right preposition introducing the overseas shipment cause.",
+        "Notice \"attributed the shortfall\" — standard business writing threads an explanation object with a cause phrase afterward.",
+        "Readers occasionally insert for like blame for, yet attribute selects to when naming the source factor in formal review memos.",
+        "Option B for follows verbs like apologize but not attribute in this pattern; option C with suggests accompaniment, not cause mapping from shortfall to shipments.",
+        "to is the exact preposition expected; contrast for which breaks the attribute … to construction about delayed shipments from the plant."
+      ]
+    },
+    {
+      "id": "p5-012",
+      "part": 5,
+      "prompt": "Compliance requires that every contractor ------- a site-safety briefing before badge access.",
+      "options": ["complete", "completes", "completed", "completing"],
+      "correctIndex": 0,
+      "explanation": "Subjunctive or base form after require that in formal US English: every contractor complete.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "subjunctive"],
+      "analysisSteps": [
+        "This Grammar - Tense item addresses the verb form after require that when the noun every contractor heads the clause about badge access rules.",
+        "The structure \"requires that every contractor\" sets up a mandative style clause where the bare base verb often appears in formal safety policies.",
+        "Some pick completes because third-person singular seems grammatical, yet the legal register frequently keeps the base form here instead of an -s form.",
+        "Option B completes adds -s where mandative base compete patterns appear; option C completed is wrongly past inside an ongoing policy requirement.",
+        "complete is the exact base string chosen; contrast completes which misapplies regular agreement where the mandative register favors the unmarked form."
+      ]
+    },
+    {
+      "id": "p5-013",
+      "part": 5,
+      "prompt": "The CFO emphasized accuracy ------- speed when reviewing the restructuring figures.",
+      "options": ["over", "than", "against", "into"],
+      "correctIndex": 0,
+      "explanation": "Accuracy over speed = priority preposition in comparative preference.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "priority"],
+      "analysisSteps": [
+        "This vocabulary item contrasts two abstract performance goals CFOs weigh while scanning restructuring spreadsheets for errors.",
+        "Read \"emphasized accuracy\" alongside the rival noun speed in the parallel noun structure needing a priority preposition rather than comparison of inequality alone.",
+        "People may try than linking comparative adjectives, but accuracy and speed are nouns here needing preference language not comparativethan scaffolding.",
+        "Option B than expects adjective comparatives elsewhere; option C against signals opposition scenarios unlike simple priority ordering inside emphasis.",
+        "over communicates ranking accuracy ahead of speed; compare than which fails to tie the two nouns in the intended CFO emphasis formula."
+      ]
+    },
+    {
+      "id": "p5-014",
+      "part": 5,
+      "prompt": "The HR memo reminds employees to ------- confidential data on shared drives only when encryption is verified.",
+      "options": ["store", "stored", "storage", "storing"],
+      "correctIndex": 0,
+      "explanation": "Reminds … to + base verb store before object confidential data.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "infinitive"],
+      "analysisSteps": [
+        "This Grammar - Word Form item sets the shape after reminds employees to regarding encryption-checked handling of confidential data folders.",
+        "Quote \"reminds employees to\" which primes an infinitive without an extra suffix tied to memo reminding itself.",
+        "Some learners choose storing because gerunds appear after to in other idioms, but after reminds someone to the bare verb is standard HR wording.",
+        "Option B stored is passive/adjective wrong for active employee action; option C storage is a noun where verb action about drives is required after to.",
+        "store is the exact verb string required; contrast storing which mistakenly supplies an -ing where the company reminder expects the base action form."
+      ]
+    },
+    {
+      "id": "p5-015",
+      "part": 5,
+      "prompt": "The marketing team will roll ------- the pilot campaign once the legal disclaimer is finalized.",
+      "options": ["out", "on", "over", "back"],
+      "correctIndex": 0,
+      "explanation": "Phrasal verb roll out (launch) matches campaign; roll on is idiomatically different.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "phrasal"],
+      "analysisSteps": [
+        "This vocabulary item targets the phrasal chunk with roll when discussing a pilot campaign gated by a legal disclaimer approval.",
+        "The verb cluster \"will roll\" plus the gap must pair with a particle that matches pilot campaign launch language around finalized disclaimers.",
+        "Candidates sometimes select roll on assuming progress, but roll on is not the marketing launch idiom paired with campaign here.",
+        "Option B on fails the standard product launch idiom tested; option C over involves review motions unlike issuing the campaign externally.",
+        "out completes roll out meaning launch; compare roll on which does not capture the go-live nuance marketing intends after disclaimer sign-off."
+      ]
+    },
+    {
+      "id": "p5-016",
+      "part": 5,
+      "prompt": "Having ------- the vendor roster, the committee narrowed the shortlist to three qualified firms.",
+      "options": ["reviewed", "reviewing", "reviews", "review"],
+      "correctIndex": 0,
+      "explanation": "Perfect participle Having + past participle reviewed opens the sentence; review/reviewing wrong.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "participle"],
+      "analysisSteps": [
+        "This Grammar - Tense problem uses a perfect participle opener before the committee action on vendor qualification lists.",
+        "The lead-in \"Having\" must pair with a past participle describing a completed survey step before narrowing shortlists.",
+        "Some pick reviewing because -ing follows having in casual speech, but formal Having reviewed is the standard academese bundle.",
+        "Option B reviewing repeats -ing in a way that collides with Having; option C reviews is finite verb material incompatible after Having alone.",
+        "reviewed is the exact past participle string; contrast review which is the bare form inappropriate directly after Having in this reduced clause."
+      ]
+    },
+    {
+      "id": "p5-017",
+      "part": 5,
+      "prompt": "The IT notice stated that remote access credentials ------- every ninety days for contract workers.",
+      "options": ["expire", "expires", "expired", "expiring"],
+      "correctIndex": 0,
+      "explanation": "Plural subject credentials takes plural verb expire in formal agreement.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "agreement"],
+      "analysisSteps": [
+        "This Grammar - Tense sentence checks subject-verb alignment where remote access credentials headline a policy sentence about ninety-day cycles.",
+        "Pull subject details from \"credentials\" plural near the gap so finite verb choice hinges on plural agreement not singular expires.",
+        "Some test-takers lean expires because IT topics often use singular mass nouns, but credentials here is plural requiring plural verb shape.",
+        "Option B expires pairs singular verb with plural credentials inappropriately; option C expired would be oddly past for a standing policy statement.",
+        "expire is plural verb form matching credentials; contrast expires which wrongly singularizes the verb beside plural credentials here."
+      ]
+    },
+    {
+      "id": "p5-018",
+      "part": 5,
+      "prompt": "All participants must ------- non-disclosure agreements before viewing prototype schematics.",
+      "options": ["sign", "signing", "signed", "signature"],
+      "correctIndex": 0,
+      "explanation": "Modal must + bare infinitive sign before object NDA.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "modal"],
+      "analysisSteps": [
+        "This Grammar - Word Form item locks the verb form after the deontic modal must for NDA handling prior to prototype schematics access.",
+        "Quote \"must\" in the matrix clause controlling required behavior before viewing confidential drawings at the session.",
+        "Learners sometimes pick signing after must due to memorized patterns, yet must still selects base infinitive sign for this directive.",
+        "Option B signing is progressive where must demands bare sign; option C signed would need different auxiliary support outside this modal frame.",
+        "sign is the exact infinitive string; compare signing which keeps the wrong -ing shape after must in formal lab protocols."
+      ]
+    },
+    {
+      "id": "p5-019",
+      "part": 5,
+      "prompt": "The logistics dashboard flags any shipment that ------- idle at a hub for more than forty-eight hours.",
+      "options": ["remains", "remain", "remained", "remaining"],
+      "correctIndex": 0,
+      "explanation": "Relative clause subject that refers back to shipment (singular); remains agrees.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "relative"],
+      "analysisSteps": [
+        "This Grammar - Tense item tests agreement inside a relative clause where the antecedent shipment controls the verb beside idle at hubs.",
+        "Focus on \"any shipment that\" where that recovers singular shipment requiring singular verb form before idle durations.",
+        "People may choose remain imagining proximity to any as plural, yet the true subject for the verb is the singular shipment head noun.",
+        "Option B remain would pluralize wrongly relative to shipment; option C remained shifts tense without a discourse reason for simple present monitoring.",
+        "remains matches singular shipment referenced by that; contrast remain which pluralizes incorrectly in this dashboard alert sentence."
+      ]
+    },
+    {
+      "id": "p5-020",
+      "part": 5,
+      "prompt": "To expedite reimbursement, employees should ------- itemized receipts alongside the travel claim form.",
+      "options": ["attach", "attaches", "attached", "attaching"],
+      "correctIndex": 0,
+      "explanation": "Modal should + base attach; attaches wrong for plural implied subject employees.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "modal"],
+      "analysisSteps": [
+        "This Grammar - Word Form prompt governs the verb after should when telling employees how to pair receipts with travel claims.",
+        "The lead purpose phrase \"To expedite reimbursement\" frames procedural guidance where should takes bare infinitive next.",
+        "Some choose attaching believing parallel with preceding verbs, but should still commands base attach before object itemized receipts.",
+        "Option B attaches adds third-person marking where plural employees with modal should still expect plain attach; option C attached is past where instruction is present.",
+        "attach is the precise base form; contrast attaches which misapplies singular agreement after should in policy prose."
+      ]
+    },
+    {
+      "id": "p5-021",
+      "part": 5,
+      "prompt": "The analyst compared monthly revenue ------- year-over-year growth benchmarks rather than quarter snapshots alone.",
+      "options": ["against", "for", "about", "into"],
+      "correctIndex": 0,
+      "explanation": "Compare X against Y is standard; compare for/about weaker here.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "preposition"],
+      "analysisSteps": [
+        "This vocabulary item completes compared when juxtaposing monthly revenue with year-over-year growth benchmarks inside analyst commentary.",
+        "The predicate \"compared monthly revenue\" needs a following preposition before benchmarks that shows benchmark contrast rather than loose topic talk.",
+        "Some writers select about because discussion feels conversational, yet compared about is not the analytic preposition used with benchmarks here.",
+        "Option B for steers toward purpose more than juxtaposition; option C into suggests entry motion unlike benchmark laydowns.",
+        "against places revenue versus benchmarks cleanly; compare for which misses the comparative tension the analyst intends."
+      ]
+    },
+    {
+      "id": "p5-022",
+      "part": 5,
+      "prompt": "The warranty covers manufacturing defects but excludes damage ------- misuse or improper installation.",
+      "options": ["due to", "because", "owing", "since"],
+      "correctIndex": 0,
+      "explanation": "Due to + noun phrase misuse; because would need clause; owing needs to.",
+      "focus": "Grammar - Connector",
+      "tags": ["grammar", "preposition"],
+      "analysisSteps": [
+        "This item supplies a cause phrase after excludes damage in a warranty scope sentence about improper handling categories.",
+        "Right after \"excludes damage\" the gap must introduce a nominal cause for damage such as misuse matching due to misuse, not a finite because clause without a subject-verb core.",
+        "Some pick because expecting cause, but because expects a subject-verb clause after it rather than noun misuse alone.",
+        "Option B because cannot sit before mere noun misuse without a verb; option C owing without to is incomplete compared with due to misuse.",
+        "due to misuse is the exact formula; contrast because which cannot introduce the noun-only complement string in this warranty carve-out."
+      ]
+    },
+    {
+      "id": "p5-023",
+      "part": 5,
+      "prompt": "Neither the project lead nor the two engineers ------- able to confirm the revised milestone dates on the call.",
+      "options": ["were", "was", "are", "is"],
+      "correctIndex": 0,
+      "explanation": "Neither nor with nearest plural subject engineers → plural verb were (formal agree with nor-phrase).",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "agreement"],
+      "analysisSteps": [
+        "This Grammar - Tense problem handles neither nor agreement where multiple noun types surround able to confirm milestone dates.",
+        "Important wording includes \"nor the two engineers\" suggesting plural human subjects closest to the verb phrase slot in formal usage variants.",
+        "People may choose was aligning with project lead singular, yet proximity patterns often pick plural were with plural engineers members in company usage tests.",
+        "Option B was conflicts with plural engineers presence; option C are might ignore past narrative frame if the call was yesterday in context.",
+        "were matches plural engineer group emphasis; contrast was which wrongly singularizes against engineers plurality nearest the gap."
+      ]
+    },
+    {
+      "id": "p5-024",
+      "part": 5,
+      "prompt": "The customer success team aims to ------- first-response times without sacrificing resolution quality.",
+      "options": ["shorten", "shortens", "shortening", "short"],
+      "correctIndex": 0,
+      "explanation": "Aims to + shorten (verb); short is adjective; shortens wrong after to.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "infinitive"],
+      "analysisSteps": [
+        "This Grammar - Word Form question sets the verb form after aims to when balancing faster first-response times against resolution depth.",
+        "Quote \"aims to\" showing infinitive destination where the root verb describing time adjustment should follow unchanged.",
+        "Learners pick short thinking adjective is enough, but to expects the verbal shorten targeting times metric rather than adjective short alone.",
+        "Option B shortens marks singular agreement where to needs plain shorten; option C shortening is gerund misaligned after aims to.",
+        "shorten is the exact infinitive verb required; compare short which is merely adjectival and cannot serve the verb slot after to alone."
+      ]
+    },
+    {
+      "id": "p5-025",
+      "part": 5,
+      "prompt": "If the prototype passes stress tests, the product team will ------- the launch by one quarter.",
+      "options": ["delay", "delayed", "delaying", "delays"],
+      "correctIndex": 0,
+      "explanation": "Future will + base delay; no -s on delay after will.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "future"],
+      "analysisSteps": [
+        "This Grammar - Tense clause links a conditional pass on stress tests to a scheduling verb about pushing the launch quarter boundary.",
+        "Key phrase \"will\" ahead of the gap shows a simple future auxiliary requiring base delay without extra agreement suffixes on delay itself.",
+        "Examinees sometimes select delays pairing with team as subject, but will already blocks third-person -s on the main verb delay.",
+        "Option B delayed is simple past incompatible with will future stack; option C delaying clashes unless progressive meaning intended, which it is not here.",
+        "delay is the base string after will; contrast delays which incorrectly adds agreement on delay after the auxiliary will here."
+      ]
+    },
+    {
+      "id": "p5-026",
+      "part": 5,
+      "prompt": "The security audit found that legacy passwords did not meet ------- complexity standards mandated last year.",
+      "options": ["minimum", "minimal", "minimally", "minimize"],
+      "correctIndex": 0,
+      "explanation": "Adjective minimum before complexity standards (attributive); minimal overlaps but minimum standard is fixed collocation.",
+      "focus": "Vocabulary - business context",
+      "tags": ["vocab", "collocation"],
+      "analysisSteps": [
+        "This vocabulary item selects an attributive adjective before complexity standards when describing outdated passwords in an audit memo.",
+        "The noun phrase \"complexity standards\" follows did not meet where auditors expect a regulatory-floor adjective naming the bar legacy passwords failed.",
+        "Some pick minimal because it feels similar, yet minimum complexity standards is a tighter collocation for baseline thresholds in IT policy prose.",
+        "Option B minimal is near-synonym stylistically weaker for threshold floors; option C minimally is adverb unable to modify standards noun directly.",
+        "minimum matches the standard phrase minimum complexity standards; compare minimize which is a verb and cannot occupy the adjective slot."
+      ]
+    },
+    {
+      "id": "p5-027",
+      "part": 5,
+      "prompt": "Upon ------- the revised contract, the director authorized counsel to archive the expired drafts immediately.",
+      "options": ["receiving", "receive", "received", "reception"],
+      "correctIndex": 0,
+      "explanation": "Upon + gerund receiving; Upon receive ungrammatical; Upon reception of would differ.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "gerund"],
+      "analysisSteps": [
+        "This Grammar - Word Form item needs the noun substitute after upon when the director acknowledges contract receipt before archival steps.",
+        "Opening with \"Upon\" forces either a gerund like receiving the revised contract or a reception noun phrase, not a bare verb stem directly after upon.",
+        "People may pick receive imagining base verb, but upon must take gerund receiving or noun object forms, not bare infinitive.",
+        "Option B receive is bare verb illegal right after upon; option C received would imply passive adjective wrongly strung without having clause.",
+        "receiving satisfies upon + gerund; contrast receive which cannot stand immediately after upon in this authorizing sentence."
+      ]
+    },
+    {
+      "id": "p5-028",
+      "part": 5,
+      "prompt": "The training session has been ------- until further notice because of facility maintenance delays.",
+      "options": ["postponed", "postpone", "postponing", "postponement"],
+      "correctIndex": 0,
+      "explanation": "Present perfect passive has been postponed; postpone base wrong; postponement needs different frame.",
+      "focus": "Grammar - Tense",
+      "tags": ["grammar", "passive"],
+      "analysisSteps": [
+        "This Grammar - Tense sentence completes the passive present perfect when HR announces session shifts linked to maintenance timelines.",
+        "Phrase \"has been\" already opens passive voice so the gap must accept a past participle describing the training session state.",
+        "Readers may select postpone forgetting passive participle needed after has been for English voice patterns on session nouns.",
+        "Option B postpone is bare infinitive/participle confused after has been; option C postponing is progressive incompatible as main complement after has been here.",
+        "postponed is the exact past participle after has been; compare postpone which fails passive participle selection in this maintenance notice."
+      ]
+    },
+    {
+      "id": "p5-029",
+      "part": 5,
+      "prompt": "The sustainability report highlights a ------- reduction in single-use plastics across cafeterias this fiscal year.",
+      "options": ["measurable", "measure", "measurably", "measures"],
+      "correctIndex": 0,
+      "explanation": "Adjective measurable before reduction; measurably is adverb; measure is verb.",
+      "focus": "Grammar - Word Form",
+      "tags": ["grammar", "word-form"],
+      "analysisSteps": [
+        "This Grammar - Word Form prompt needs an adjective before reduction when summarizing quantifiable ESG cafeteria results for investors.",
+        "Structure \"a\" plus gap plus reduction signals attributive adjective slot describing how large the drop appears in data charts.",
+        "Some choose measurably because statistics feel numeric, yet the head noun reduction wants an adjective measurable not adverb measurably before it.",
+        "Option B measure is a verb or noun where adjective measurable is required; option D measures verb clashes with the determiner a before adjective zone.",
+        "measurable fits the attributive slot; compare measure which cannot modify reduction directly with the right part of speech."
+      ]
+    },
+    {
+      "id": "p5-030",
+      "part": 5,
+      "prompt": "The board will revisit the dividend policy ------- macroeconomic indicators stabilize in the target range.",
+      "options": ["once", "while", "during", "within"],
+      "correctIndex": 0,
+      "explanation": "Once + clause = after condition; during needs NP not clause; while odd for one-time stabilization.",
+      "focus": "Grammar - Connector",
+      "tags": ["grammar", "subordinator"],
+      "analysisSteps": [
+        "This Grammar - Connector item sets a temporal gate linking board review of dividend policy to macroeconomic stabilization milestones.",
+        "Read \"revisit the dividend policy\" as the later main clause action depending on a subordinate trigger about indicators stabilizing.",
+        "Some pick while hoping for simultaneous backdrop, yet the sentence means the board waits until stabilization occurs rather than endless parallel time.",
+        "Option B while can mark simultaneous action but misfires for clear trigger-after condition style; option C during cannot head a finite clause starting macroeconomic indicators.",
+        "once marks the idea when indicators stabilize the board will act; compare during which cannot introduce this full clause about macroeconomic indicators after the gap."
+      ]
+    }
+  ]
+}

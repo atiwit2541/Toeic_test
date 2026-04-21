@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "id": "exam-p5-mo4hf3hi-ixekje",
+    "title": "TOEIC Part 5 — full section (30 items)",
+    "createdAt": "2026-04-18T15:18:28.710Z",
+    "version": 1,
+    "notes": "AI-generated Part 5×30 (exam-style count). Verify answers; quality varies by model."
+  },
+  "items": [
+    {
+      "id": "p5-001",
+      "part": 5,
+      "prompt": "The new employee was excited to start work at a company that values -------",
+      "options": [
+        "teamwork",
+        "individuality",
+        "innovation",
+        "productivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The company values teamwork, which is important for collaboration and communication.",
+      "tags": []
+    },
+    {
+      "id": "p5-002",
+      "part": 5,
+      "prompt": "The manager asked the team to prioritize tasks that are -------",
+      "options": [
+        "urgent",
+        "important",
+        "complicated",
+        "simple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Urgent tasks require immediate attention, while important tasks have a significant impact.",
+      "tags": []
+    },
+    {
+      "id": "p5-003",
+      "part": 5,
+      "prompt": "The company's mission statement emphasizes the importance of -------",
+      "options": [
+        "sustainability",
+        "diversity",
+        "innovation",
+        "customer service"
+      ],
+      "correctIndex": 2,
+      "explanation": "Innovation is key to staying ahead in a competitive market.",
+      "tags": []
+    },
+    {
+      "id": "p5-004",
+      "part": 5,
+      "prompt": "The employee's performance review highlighted the need for improvement in -------",
+      "options": [
+        "communication",
+        "time management",
+        "leadership skills",
+        "problem-solving"
+      ],
+      "correctIndex": 1,
+      "explanation": "Effective time management is crucial for meeting deadlines and prioritizing tasks.",
+      "tags": []
+    },
+    {
+      "id": "p5-005",
+      "part": 5,
+      "prompt": "The company's new policy aims to promote a culture of -------",
+      "options": [
+        "respect",
+        "trust",
+        "accountability",
+        "transparency"
+      ],
+      "correctIndex": 0,
+      "explanation": "A culture of respect fosters open communication and collaboration.",
+      "tags": []
+    },
+    {
+      "id": "p5-006",
+      "part": 5,
+      "prompt": "The team leader emphasized the importance of setting realistic goals that are -------",
+      "options": [
+        "ambitious",
+        "achievable",
+        "specific",
+        "measurable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Setting achievable goals helps to build confidence and momentum.",
+      "tags": []
+    },
+    {
+      "id": "p5-007",
+      "part": 5,
+      "prompt": "The company's vision for the future emphasizes the need to -------",
+      "options": [
+        "adapt",
+        "innovate",
+        "improve",
+        "expand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Innovating and improving processes helps to stay competitive in a rapidly changing market.",
+      "tags": []
+    },
+    {
+      "id": "p5-008",
+      "part": 5,
+      "prompt": "The employee's strengths include their ability to work well under pressure and -------",
+      "options": [
+        "manage stress",
+        "prioritize tasks",
+        "make decisions",
+        "communicate effectively"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prioritizing tasks helps to manage workload and reduce stress.",
+      "tags": []
+    },
+    {
+      "id": "p5-009",
+      "part": 5,
+      "prompt": "The company's values include a commitment to -------",
+      "options": [
+        "integrity",
+        "innovation",
+        "sustainability",
+        "customer satisfaction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrity is essential for building trust with customers and stakeholders.",
+      "tags": []
+    },
+    {
+      "id": "p5-010",
+      "part": 5,
+      "prompt": "The team's goal is to -------",
+      "options": [
+        "increase productivity",
+        "improve communication",
+        "enhance creativity",
+        "reduce costs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Enhancing creativity helps to drive innovation and stay ahead in the market.",
+      "tags": []
+    },
+    {
+      "id": "p5-011",
+      "part": 5,
+      "prompt": "The company's new product will revolutionize the industry, but it is still in the phase of -------",
+      "options": [
+        "testing",
+        "launching",
+        "developing",
+        "producing"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'developing' because the sentence implies that the product is not yet ready for release.",
+      "tags": []
+    },
+    {
+      "id": "p5-012",
+      "part": 5,
+      "prompt": "As a result of the merger, many employees will be ------- from their current roles",
+      "options": [
+        "promoted",
+        "demoted",
+        "transferred",
+        "reassigned"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'transferred' because the sentence implies that employees will be moved to different positions.",
+      "tags": []
+    },
+    {
+      "id": "p5-013",
+      "part": 5,
+      "prompt": "The new policy aims to ------- the company's carbon footprint by 50% within the next two years",
+      "options": [
+        "reduce",
+        "increase",
+        "maintain",
+        "expand"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'reduce' because the sentence implies that the policy aims to decrease the company's environmental impact.",
+      "tags": []
+    },
+    {
+      "id": "p5-014",
+      "part": 5,
+      "prompt": "The team leader asked me to ------- a report on the project's progress by the end of the week",
+      "options": [
+        "write",
+        "edit",
+        "submit",
+        "present"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'write' because the sentence implies that the task requires creating a written document.",
+      "tags": []
+    },
+    {
+      "id": "p5-015",
+      "part": 5,
+      "prompt": "The company's mission statement emphasizes the importance of ------- and innovation in our products",
+      "options": [
+        "quality",
+        "quantity",
+        "cost-effectiveness",
+        "sustainability"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'quality' because the sentence implies that the company values producing high-quality products.",
+      "tags": []
+    },
+    {
+      "id": "p5-016",
+      "part": 5,
+      "prompt": "As a result of the economic downturn, many businesses are forced to ------- their operations",
+      "options": [
+        "scale down",
+        "scale up",
+        "maintain",
+        "expand"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'scale down' because the sentence implies that businesses are reducing their operations due to financial difficulties.",
+      "tags": []
+    },
+    {
+      "id": "p5-017",
+      "part": 5,
+      "prompt": "The new employee was asked to ------- a background check before starting work",
+      "options": [
+        "conduct",
+        "perform",
+        "complete",
+        "submit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'conduct' because the sentence implies that the task requires investigating the employee's past.",
+      "tags": []
+    },
+    {
+      "id": "p5-018",
+      "part": 5,
+      "prompt": "The company's goal is to ------- its market share by 20% within the next quarter",
+      "options": [
+        "increase",
+        "decrease",
+        "maintain",
+        "expand"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'increase' because the sentence implies that the company aims to grow its market presence.",
+      "tags": []
+    },
+    {
+      "id": "p5-019",
+      "part": 5,
+      "prompt": "As a result of the team's hard work, we were able to ------- our project deadline by two weeks",
+      "options": [
+        "meet",
+        "exceed",
+        "miss",
+        "delay"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 'exceed' because the sentence implies that the team completed the project ahead of schedule.",
+      "tags": []
+    },
+    {
+      "id": "p5-020",
+      "part": 5,
+      "prompt": "The new policy aims to ------- the company's employee turnover rate by offering more flexible working hours",
+      "options": [
+        "reduce",
+        "increase",
+        "maintain",
+        "expand"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'reduce' because the sentence implies that the policy aims to decrease the company's employee turnover.",
+      "tags": []
+    },
+    {
+      "id": "p5-021",
+      "part": 5,
+      "prompt": "The new employee was expected to ------- his work by the end of the day.",
+      "options": [
+        "complete",
+        "finish",
+        "start",
+        "stop"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 'finish' because it means to complete a task or project.",
+      "tags": []
+    },
+    {
+      "id": "p5-022",
+      "part": 5,
+      "prompt": "The company's new policy requires all employees to ------- their personal belongings at the entrance.",
+      "options": [
+        "store",
+        "leave",
+        "take",
+        "keep"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 'leave' because it means to leave or abandon something, in this case, one's personal belongings.",
+      "tags": []
+    },
+    {
+      "id": "p5-023",
+      "part": 5,
+      "prompt": "The manager asked the team leader to ------- the project report by Friday.",
+      "options": [
+        "submit",
+        "send",
+        "deliver",
+        "present"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'submit' because it means to provide or offer something, such as a report, for review or approval.",
+      "tags": []
+    },
+    {
+      "id": "p5-024",
+      "part": 5,
+      "prompt": "The customer service representative was trained to ------- customers with any questions or concerns they may have.",
+      "options": [
+        "help",
+        "assist",
+        "support",
+        "guide"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'help' because it means to provide assistance or aid to someone, often in a situation where they need guidance or support.",
+      "tags": []
+    },
+    {
+      "id": "p5-025",
+      "part": 5,
+      "prompt": "The company's mission statement emphasizes the importance of ------- with customers and stakeholders.",
+      "options": [
+        "communicate",
+        "interact",
+        "engage",
+        "connect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'communicate' because it means to share information or ideas with others, often in a formal or official setting.",
+      "tags": []
+    },
+    {
+      "id": "p5-026",
+      "part": 5,
+      "prompt": "The marketing team was responsible for ------- the new product launch campaign.",
+      "options": [
+        "develop",
+        "create",
+        "design",
+        "launch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'design' because it means to plan and create a visual or conceptual representation of something, such as a product or marketing campaign.",
+      "tags": []
+    },
+    {
+      "id": "p5-027",
+      "part": 5,
+      "prompt": "The employee handbook outlines the company's policies on ------- and confidentiality.",
+      "options": [
+        "data",
+        "information",
+        "records",
+        "files"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'data' because it refers to facts, statistics, or other information that can be used for analysis or decision-making.",
+      "tags": []
+    },
+    {
+      "id": "p5-028",
+      "part": 5,
+      "prompt": "The project manager asked the team to ------- their tasks and prioritize them accordingly.",
+      "options": [
+        "organize",
+        "structure",
+        "prioritize",
+        "coordinate"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'prioritize' because it means to identify and focus on the most important or urgent tasks, often in a project or work setting.",
+      "tags": []
+    },
+    {
+      "id": "p5-029",
+      "part": 5,
+      "prompt": "The company's HR department handles all employee benefits, including ------- and retirement plans.",
+      "options": [
+        "insurance",
+        "compensation",
+        "benefits",
+        "rewards"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 'benefits' because it refers to the advantages or perks that an employer offers to its employees, such as health insurance, paid time off, or retirement plans.",
+      "tags": []
+    },
+    {
+      "id": "p5-030",
+      "part": 5,
+      "prompt": "The sales team was responsible for ------- new clients and increasing revenue through upselling and cross-selling.",
+      "options": [
+        "acquire",
+        "gain",
+        "obtain",
+        "procure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'acquire' because it means to obtain or gain something, often in a business or professional setting, such as acquiring new clients or customers.",
+      "tags": []
+    }
+  ]
+}

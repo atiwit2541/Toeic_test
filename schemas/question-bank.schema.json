@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://toeic-local.invalid/schemas/question-bank.schema.json",
+  "title": "TOEIC Reading question bank (Parts 5–7)",
+  "type": "object",
+  "required": ["meta", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["id", "title", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique id for this set (e.g. set-2026-001)."
+        },
+        "title": { "type": "string" },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp when the set was created."
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Schema / file format version."
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          { "$ref": "#/$defs/part5Item" },
+          { "$ref": "#/$defs/part6Item" },
+          { "$ref": "#/$defs/part7Item" }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "options4": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": { "type": "string" }
+    },
+    "part5Item": {
+      "type": "object",
+      "required": ["id", "part", "prompt", "options", "correctIndex"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "part": { "const": 5 },
+        "prompt": {
+          "type": "string",
+          "description": "Sentence with a gap; context only (no numbered blanks)."
+        },
+        "options": { "$ref": "#/$defs/options4" },
+        "correctIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Optional supporting text; the app does not show a separate explanation block — content is folded into step-by-step analysis when analysisSteps is absent."
+        },
+        "focus": {
+          "type": "string",
+          "description": "Skill focus, e.g. Grammar - Word Form, Grammar - Tense, Vocabulary - business context."
+        },
+        "analysisSteps": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Prefer exactly 5 concrete English strings (quoted prompt phrase, named wrong options by letter, contrast distractors). Vague coaching is discouraged. If omitted, the app builds shorter Thai fallback from focus, signals, and explanation."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "part6Blank": {
+      "type": "object",
+      "required": ["blankNumber", "options", "correctIndex"],
+      "additionalProperties": false,
+      "properties": {
+        "blankNumber": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Matches (1), (2), ... markers in the passage."
+        },
+        "options": { "$ref": "#/$defs/options4" },
+        "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "explanation": { "type": "string" }
+      }
+    },
+    "part6Item": {
+      "type": "object",
+      "required": ["id", "part", "passage", "blanks"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "part": { "const": 6 },
+        "title": {
+          "type": "string",
+          "description": "Optional short title (e.g. email subject line)."
+        },
+        "passage": {
+          "type": "string",
+          "description": "Text with placeholders like (1), (2) for each blank."
+        },
+        "blanks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/part6Blank" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "part7SubQuestion": {
+      "type": "object",
+      "required": ["id", "prompt", "options", "correctIndex"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "prompt": { "type": "string" },
+        "options": { "$ref": "#/$defs/options4" },
+        "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "explanation": { "type": "string" }
+      }
+    },
+    "part7Item": {
+      "type": "object",
+      "required": ["id", "part", "passage", "questions"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "part": { "const": 7 },
+        "sourceLabel": {
+          "type": "string",
+          "description": "Optional label (e.g. advertisement, email)."
+        },
+        "passage": { "type": "string" },
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/part7SubQuestion" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

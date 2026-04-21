@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "id": "exam-p5-mo4iidov-6afmud",
+    "title": "TOEIC Part 5 — full section (30 items)",
+    "createdAt": "2026-04-18T15:49:01.519Z",
+    "version": 1,
+    "notes": "AI-generated Part 5×30 (exam-style count). Verify answers; quality varies by model."
+  },
+  "items": [
+    {
+      "id": "p5-001",
+      "part": 5,
+      "prompt": "The company's quarterly results will be announced on -------.",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Friday, which is a typical day for announcing quarterly results.",
+      "focus": "Vocabulary - business context",
+      "tags": []
+    },
+    {
+      "id": "p5-002",
+      "part": 5,
+      "prompt": "By the time we ------- the project, it will be completed.",
+      "options": [
+        "have finished",
+        "will finish",
+        "had finished",
+        "finish"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'have finished', which is in the present perfect tense indicating that the action started before now and has a connection to the present.",
+      "focus": "Grammar - Tense",
+      "tags": []
+    },
+    {
+      "id": "p5-003",
+      "part": 5,
+      "prompt": "The new employee was impressed by the company's ------- culture.",
+      "options": [
+        "comprehensive",
+        "comprehensible",
+        "compelling",
+        "competitive"
+      ],
+      "correctIndex": 3,
+      "explanation": "The correct answer is 'competitive', which refers to a business environment where companies strive to outdo each other.",
+      "focus": "Vocabulary - business context",
+      "tags": []
+    },
+    {
+      "id": "p5-004",
+      "part": 5,
+      "prompt": "The company's contract negotiations with the supplier -------.",
+      "options": [
+        "are ongoing",
+        "was ongoing",
+        "has been ongoing",
+        "is being ongoing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'are ongoing', which indicates that the negotiations are still in progress.",
+      "focus": "Grammar - Tense",
+      "tags": []
+    },
+    {
+      "id": "p5-005",
+      "part": 5,
+      "prompt": "The company's production costs have increased due to -------.",
+      "options": [
+        "a rise",
+        "rise",
+        "rising",
+        "to rise"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'rising', which refers to the continuous increase in production costs.",
+      "focus": "Grammar - Word Form",
+      "tags": []
+    },
+    {
+      "id": "p5-006",
+      "part": 5,
+      "prompt": "The company's new policy on employee performance reviews will be implemented by -------.",
+      "options": [
+        "next quarter",
+        "the next quarter",
+        "in the next quarter",
+        "next"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'next quarter', which refers to a specific period of time for implementing the new policy.",
+      "focus": "Vocabulary - business context",
+      "tags": []
+    },
+    {
+      "id": "p5-007",
+      "part": 5,
+      "prompt": "The company's procurement process is designed to ------- the best possible deals with suppliers.",
+      "options": [
+        "secure",
+        "secures",
+        "to secure",
+        "secured"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'secure', which refers to obtaining the best possible deals through a careful and thorough procurement process.",
+      "focus": "Grammar - Word Form",
+      "tags": []
+    },
+    {
+      "id": "p5-008",
+      "part": 5,
+      "prompt": "By the end of the quarter, we will have ------- the project's budget.",
+      "options": [
+        "exceeded",
+        "exceeds",
+        "to exceed",
+        "exceeded"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'exceeded', which refers to going beyond the allocated budget for the project.",
+      "focus": "Grammar - Tense",
+      "tags": []
+    },
+    {
+      "id": "p5-009",
+      "part": 5,
+      "prompt": "The company's R&D team is working on a new product that will ------- the market by next year.",
+      "options": [
+        "will revolutionize",
+        "revolutionizes",
+        "to revolutionize",
+        "revolutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'will revolutionize', which refers to the expected impact of the new product on the market.",
+      "focus": "Vocabulary - business context",
+      "tags": []
+    },
+    {
+      "id": "p5-010",
+      "part": 5,
+      "prompt": "The company's HR policy requires all employees to ------- a comprehensive training program before starting work.",
+      "options": [
+        "must complete",
+        "complete",
+        "to complete",
+        "completes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'must complete', which refers to the mandatory requirement for all employees to participate in the training program.",
+      "focus": "Grammar - Word Form",
+      "tags": []
+    },
+    {
+      "id": "p5-011",
+      "part": 5,
+      "prompt": "The new employee's first task was to ------- the company's policies.",
+      "options": [
+        "review",
+        "analyze",
+        "comprehend",
+        "study"
+      ],
+      "correctIndex": 2,
+      "explanation": "To comprehend means to understand or grasp something.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "word-form"
+      ]
+    },
+    {
+      "id": "p5-012",
+      "part": 5,
+      "prompt": "By the end of the quarter, we had ------- our sales targets.",
+      "options": [
+        "exceeded",
+        "met",
+        "surpassed",
+        "fulfilled"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct verb tense is 'had exceeded' to indicate a completed action in the past.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "tense"
+      ]
+    },
+    {
+      "id": "p5-013",
+      "part": 5,
+      "prompt": "The company's decision to ------- its operations was met with resistance from employees.",
+      "options": [
+        "downsize",
+        "scale down",
+        "restructure",
+        "reorganize"
+      ],
+      "correctIndex": 0,
+      "explanation": "Downsizing refers to reducing the size of an organization or department.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "business"
+      ]
+    },
+    {
+      "id": "p5-014",
+      "part": 5,
+      "prompt": "The new contract will ------- our current agreement and provide more benefits to employees.",
+      "options": [
+        "supersede",
+        "replace",
+        "amend",
+        "revise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Supersede means to replace or take the place of something, often in a formal sense.",
+      "focus": "Grammar - Connector",
+      "tags": [
+        "grammar",
+        "connector"
+      ]
+    },
+    {
+      "id": "p5-015",
+      "part": 5,
+      "prompt": "The company's procurement process is designed to ------- the best value for our customers.",
+      "options": [
+        "provide",
+        "offer",
+        "deliver",
+        "procure"
+      ],
+      "correctIndex": 3,
+      "explanation": "Procure means to obtain or acquire something, often in a formal sense.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "business"
+      ]
+    },
+    {
+      "id": "p5-016",
+      "part": 5,
+      "prompt": "The company's quarterly results were impressive, with a ------- increase in revenue.",
+      "options": [
+        "substantial",
+        "significant",
+        "considerable",
+        "modest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substantial means large or considerable in amount or degree.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "business"
+      ]
+    },
+    {
+      "id": "p5-017",
+      "part": 5,
+      "prompt": "The company's compliance team is responsible for ------- regulatory requirements.",
+      "options": [
+        "adhering to",
+        "complying with",
+        "meeting",
+        "fulfilling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Complying with means to follow or meet the rules or regulations of something.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "word-form"
+      ]
+    },
+    {
+      "id": "p5-018",
+      "part": 5,
+      "prompt": "The company's R&D team is working on a new project to ------- the current technology.",
+      "options": [
+        "enhance",
+        "improve",
+        "update",
+        "develop"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enhance means to make something better or more effective, often by adding features or improving performance.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "business"
+      ]
+    },
+    {
+      "id": "p5-019",
+      "part": 5,
+      "prompt": "The company's logistics team is responsible for ------- the shipment to the customer.",
+      "options": [
+        "delivering",
+        "shipping",
+        "transporting",
+        "dispatching"
+      ],
+      "correctIndex": 0,
+      "explanation": "Delivering means to bring or take something to a person, place, or destination.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "business"
+      ]
+    },
+    {
+      "id": "p5-020",
+      "part": 5,
+      "prompt": "The company's HR policies are designed to ------- the needs of our employees.",
+      "options": [
+        "address",
+        "meet",
+        "fulfill",
+        "comply with"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fulfill means to meet or satisfy a need, want, or requirement.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "business"
+      ]
+    },
+    {
+      "id": "p5-021",
+      "part": 5,
+      "prompt": "The new employee's training program will be conducted by a team of experienced professionals, but the company is still deciding on the best approach to -------.",
+      "options": [
+        "experts",
+        "novices",
+        "specialists",
+        "generalists"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'specialists' because it fits the context of a team of experienced professionals conducting training.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "word-form"
+      ]
+    },
+    {
+      "id": "p5-022",
+      "part": 5,
+      "prompt": "The company's quarterly results are expected to be released by the end of the month, but the exact date is still to be -------.",
+      "options": [
+        "announced",
+        "declared",
+        "stated",
+        "decided"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'announced' because it fits the context of releasing quarterly results.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "tense"
+      ]
+    },
+    {
+      "id": "p5-023",
+      "part": 5,
+      "prompt": "The company's new marketing strategy is designed to ------- our brand and increase customer loyalty.",
+      "options": [
+        "enhance",
+        "diminish",
+        "strengthen",
+        "weaken"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'strengthen' because it fits the context of increasing customer loyalty.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ]
+    },
+    {
+      "id": "p5-024",
+      "part": 5,
+      "prompt": "The company is considering a new partnership with a leading technology firm to ------- our research and development capabilities.",
+      "options": [
+        "expand",
+        "contract",
+        "enhance",
+        "diminish"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 'enhance' because it fits the context of improving research and development capabilities.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ]
+    },
+    {
+      "id": "p5-025",
+      "part": 5,
+      "prompt": "The company's HR department is responsible for ensuring that all employees are familiar with the new company policies, which will be effective as of -------.",
+      "options": [
+        "today",
+        "tomorrow",
+        "next week",
+        "next month"
+      ],
+      "correctIndex": 3,
+      "explanation": "The correct answer is 'next month' because it fits the context of a specific date in the future.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "word-form"
+      ]
+    },
+    {
+      "id": "p5-026",
+      "part": 5,
+      "prompt": "The company's procurement team is responsible for ensuring that all purchases are made in compliance with our internal policies and procedures, which will be reviewed and -------.",
+      "options": [
+        "approved",
+        "disapproved",
+        "modified",
+        "rejected"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'approved' because it fits the context of reviewing and approving purchases.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ]
+    },
+    {
+      "id": "p5-027",
+      "part": 5,
+      "prompt": "The company's logistics team is responsible for ensuring that all shipments are delivered on time and in good condition, which will be tracked and -------.",
+      "options": [
+        "monitored",
+        "tracked",
+        "logged",
+        "recorded"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 'tracked' because it fits the context of tracking shipments.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ]
+    },
+    {
+      "id": "p5-028",
+      "part": 5,
+      "prompt": "The company's R&D team is responsible for developing new products and services that will be launched in the next quarter, which will be -------.",
+      "options": [
+        "announced",
+        "declared",
+        "stated",
+        "decided"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'announced' because it fits the context of launching new products and services.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "tense"
+      ]
+    },
+    {
+      "id": "p5-029",
+      "part": 5,
+      "prompt": "The company's client onboarding process is designed to ------- our clients with the information they need to get started quickly and efficiently.",
+      "options": [
+        "orient",
+        "integrate",
+        "train",
+        "support"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'orient' because it fits the context of providing new clients with necessary information.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ]
+    },
+    {
+      "id": "p5-030",
+      "part": 5,
+      "prompt": "The company's budget approval process is designed to ensure that all expenses are properly justified and -------.",
+      "options": [
+        "approved",
+        "disapproved",
+        "reduced",
+        "increased"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'approved' because it fits the context of approving expenses.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ]
+    }
+  ]
+}
