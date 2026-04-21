@@ -1,4 +1,10 @@
 import "./styles.css";
+import {
+  authGateRequired,
+  isLoggedIn,
+  markLoggedIn,
+  logout,
+} from "./auth.js";
 import { loadAttempts, saveAttempt, clearAllAttempts } from "./stats.js";
 
 const bankModules = import.meta.glob("../data/*.json", { eager: true });
@@ -299,15 +305,89 @@ function startTimer() {
   }, 1000);
 }
 
+function logoutButtonHtml() {
+  return authGateRequired()
+    ? `<button type="button" class="btn ghost" id="btn-logout">ออกจากระบบ</button>`
+    : "";
+}
+
+function attachLogout() {
+  document.getElementById("btn-logout")?.addEventListener("click", () => {
+    logout();
+    state.view = "home";
+    render();
+  });
+}
+
+function renderLogin() {
+  return `
+    <div class="login-wrap">
+      <h1>TOEIC Reading — Practice</h1>
+      <p class="sub">เข้าสู่ระบบเพื่อใช้งาน</p>
+      <div class="card login-card">
+        <form id="form-login" class="login-form">
+          <label class="bank-label">รหัสผ่าน
+            <input type="password" id="login-password" class="input" autocomplete="current-password" required />
+          </label>
+          <p class="login-error" id="login-error" hidden></p>
+          <button type="submit" class="btn primary">เข้าสู่ระบบ</button>
+        </form>
+        <p class="login-hint muted">รหัสผ่านตั้งใน Vercel → Environment Variables → <code>TOEIC_LOGIN_PASSWORD</code></p>
+      </div>
+    </div>
+  `;
+}
+
+function bindLogin() {
+  const form = document.getElementById("form-login");
+  const errEl = document.getElementById("login-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    errEl.hidden = true;
+    const password = document.getElementById("login-password").value;
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        errEl.textContent =
+          data.error === "Invalid password"
+            ? "รหัสผ่านไม่ถูกต้อง"
+            : data.error || "เข้าสู่ระบบไม่สำเร็จ";
+        errEl.hidden = false;
+        return;
+      }
+      markLoggedIn();
+      state.view = "home";
+      render();
+    } catch {
+      errEl.textContent =
+        "เชื่อมต่อ API ไม่ได้ — สำหรับ localhost ตั้งไฟล์ .env เป็น VITE_SKIP_AUTH=1 แล้วรีสตาร์ท dev";
+      errEl.hidden = false;
+    }
+  });
+}
+
 function render() {
+  if (authGateRequired() && !isLoggedIn()) {
+    app.innerHTML = renderLogin();
+    bindLogin();
+    return;
+  }
+
   if (state.view === "home") {
     app.innerHTML = renderHome();
     bindHome();
+    attachLogout();
     return;
   }
   if (state.view === "stats") {
     app.innerHTML = renderStats();
     bindStats();
+    attachLogout();
     return;
   }
   if (state.view === "quiz") {
@@ -351,6 +431,7 @@ function renderHome() {
     return `
       <nav class="nav-row">
         <button type="button" class="btn" id="btn-stats-empty">สถิติ</button>
+        ${logoutButtonHtml()}
       </nav>
       <h1>TOEIC Reading — Practice</h1>
       <p class="sub">ยังไม่มีไฟล์ชุดข้อในโฟลเดอร์ <code>data/</code></p>
@@ -372,6 +453,7 @@ function renderHome() {
   return `
     <nav class="nav-row">
       <button type="button" class="btn" id="btn-stats">สถิติ</button>
+      ${logoutButtonHtml()}
     </nav>
     <h1>${escapeHtml(m.title)}</h1>
     <p class="sub">${escapeHtml(m.id)} · v${m.version}${
@@ -707,6 +789,7 @@ function renderStats() {
   return `
     <nav class="nav-row">
       <button type="button" class="btn" id="btn-stats-back">← หน้าแรก</button>
+      ${logoutButtonHtml()}
     </nav>
     <h1>สถิติ</h1>
     <p class="sub">เก็บในเบราว์เซอร์ (localStorage) · สูงสุด 500 รายการล่าสุด</p>

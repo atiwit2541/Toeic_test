@@ -164,6 +164,17 @@ label.choice input {
   color: #fff;
 }
 
+.btn.ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--muted);
+}
+
+.btn.ghost:hover {
+  color: var(--text);
+  border-color: var(--border);
+}
+
 .btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
@@ -267,9 +278,44 @@ code {
   line-height: 1.45;
 }
 
+.login-wrap {
+  padding-top: 0.5rem;
+}
+
+.login-form .input,
+.bank-label .input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0.35rem;
+  font: inherit;
+  padding: 0.5rem 0.65rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.login-card .login-form {
+  margin: 0;
+}
+
+.login-error {
+  color: var(--bad);
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+.login-hint {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+}
+
 .nav-row {
   display: flex;
   justify-content: flex-end;
+  gap: 0.5rem;
+  flex-wrap: wrap;
   margin-bottom: 0.75rem;
 }
 
