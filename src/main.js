@@ -332,7 +332,6 @@ function renderLogin() {
           <p class="login-error" id="login-error" hidden></p>
           <button type="submit" class="btn primary">เข้าสู่ระบบ</button>
         </form>
-        <p class="login-hint muted">รหัสผ่านตั้งใน Vercel → Environment Variables → <code>TOEIC_LOGIN_PASSWORD</code></p>
       </div>
     </div>
   `;

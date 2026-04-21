@@ -306,11 +306,6 @@ code {
   margin: 0 0 0.75rem;
 }
 
-.login-hint {
-  margin: 1rem 0 0;
-  font-size: 0.82rem;
-}
-
 .nav-row {
   display: flex;
   justify-content: flex-end;
