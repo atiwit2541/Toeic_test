@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "id": "part5-extra-set-01",
+    "title": "Part 5 — extra practice set (15 items)",
+    "createdAt": "2026-04-24T05:05:05.233Z",
+    "version": 1,
+    "notes": "Extra bank for app; verify answers before study."
+  },
+  "items": [
+    {
+      "id": "p5-001",
+      "part": 5,
+      "prompt": "The vendor agreed to ------- the delivery schedule after the port reopened.",
+      "options": [
+        "revise",
+        "revises",
+        "revising",
+        "revision"
+      ],
+      "correctIndex": 0,
+      "explanation": "Agree to + bare infinitive revise; revision is noun; revises wrong after to.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around vendor and agreed plus delivery from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"The vendor agreed to\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside vendor in context.",
+        "A tempting trap is option C when \"revising\" sounds plausible near agreed, yet it does not lock onto the same clause pattern the sentence builds around delivery.",
+        "Option B with \"revises\" fails the slot test for independent reasons; option D using \"revision\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"revise\" for this gap; compare \"revises\" from B which cannot carry the same grammatical weight as the keyed answer tied to vendor here."
+      ]
+    },
+    {
+      "id": "p5-002",
+      "part": 5,
+      "prompt": "The committee will not ------- the merger until regulators publish their guidance.",
+      "options": [
+        "finalize",
+        "finalizing",
+        "finalized",
+        "finalization"
+      ],
+      "correctIndex": 0,
+      "explanation": "Will not + base verb finalize before object merger.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "modal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around committee and merger plus until from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"The committee will not\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside committee in context.",
+        "A tempting trap is option C when \"finalized\" sounds plausible near merger, yet it does not lock onto the same clause pattern the sentence builds around until.",
+        "Option B with \"finalizing\" fails the slot test for independent reasons; option D using \"finalization\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"finalize\" for this gap; compare \"finalizing\" from B which cannot carry the same grammatical weight as the keyed answer tied to committee here."
+      ]
+    },
+    {
+      "id": "p5-003",
+      "part": 5,
+      "prompt": "------- the pilot exceeded expectations, the steering group approved a second funding round.",
+      "options": [
+        "Because",
+        "Despite",
+        "Although",
+        "Unless"
+      ],
+      "correctIndex": 2,
+      "explanation": "Although + clause shows concession before main clause approval.",
+      "focus": "Grammar - Connector",
+      "tags": [
+        "grammar",
+        "connector"
+      ],
+      "analysisSteps": [
+        "This Grammar - Connector item tests the blank where wording around pilot and exceeded plus expectations from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"the pilot exceeded expectati\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside pilot in context.",
+        "A tempting trap is option B when \"Despite\" sounds plausible near exceeded, yet it does not lock onto the same clause pattern the sentence builds around expectations.",
+        "Option A with \"Because\" fails the slot test for independent reasons; option D using \"Unless\" also misaligns with the matrix clause beside the blank, unlike C.",
+        "The correct string is \"Although\" for this gap; compare \"Because\" from A which cannot carry the same grammatical weight as the keyed answer tied to pilot here."
+      ]
+    },
+    {
+      "id": "p5-004",
+      "part": 5,
+      "prompt": "The warehouse must remain ------- during the inspection, so all forklifts are idled.",
+      "options": [
+        "operational",
+        "operationally",
+        "operations",
+        "operate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Remain + adjective operational; remain operate is ungrammatical.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "linking"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around warehouse and must plus remain from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"The warehouse must remain\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside warehouse in context.",
+        "A tempting trap is option C when \"operations\" sounds plausible near must, yet it does not lock onto the same clause pattern the sentence builds around remain.",
+        "Option B with \"operationally\" fails the slot test for independent reasons; option D using \"operate\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"operational\" for this gap; compare \"operationally\" from B which cannot carry the same grammatical weight as the keyed answer tied to warehouse here."
+      ]
+    },
+    {
+      "id": "p5-005",
+      "part": 5,
+      "prompt": "Applicants are required to ------- two references before the interview panel convenes.",
+      "options": [
+        "submit",
+        "submits",
+        "submitting",
+        "submission"
+      ],
+      "correctIndex": 0,
+      "explanation": "Required to + submit; submission is noun where verb needed.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around applicants and required plus references from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"Applicants are required to\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside applicants in context.",
+        "A tempting trap is option C when \"submitting\" sounds plausible near required, yet it does not lock onto the same clause pattern the sentence builds around references.",
+        "Option B with \"submits\" fails the slot test for independent reasons; option D using \"submission\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"submit\" for this gap; compare \"submits\" from B which cannot carry the same grammatical weight as the keyed answer tied to applicants here."
+      ]
+    },
+    {
+      "id": "p5-006",
+      "part": 5,
+      "prompt": "The revised handbook clarifies that contractors ------- wear badges in secured zones.",
+      "options": [
+        "must",
+        "might",
+        "could",
+        "would"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mandatory rule: must wear; might/could too weak for compliance text.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "modal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense item tests the blank where wording around revised and handbook plus clarifies from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"clarifies that contractors\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside revised in context.",
+        "A tempting trap is option C when \"could\" sounds plausible near handbook, yet it does not lock onto the same clause pattern the sentence builds around clarifies.",
+        "Option B with \"might\" fails the slot test for independent reasons; option D using \"would\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"must\" for this gap; compare \"might\" from B which cannot carry the same grammatical weight as the keyed answer tied to revised here."
+      ]
+    },
+    {
+      "id": "p5-007",
+      "part": 5,
+      "prompt": "The finance team attributed the variance ------- a timing difference in revenue recognition.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "by"
+      ],
+      "correctIndex": 0,
+      "explanation": "Attributed variance to a cause is fixed collocation.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context item tests the blank where wording around finance and team plus attributed from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"eam attributed the variance\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside finance in context.",
+        "A tempting trap is option C when \"with\" sounds plausible near team, yet it does not lock onto the same clause pattern the sentence builds around attributed.",
+        "Option B with \"for\" fails the slot test for independent reasons; option D using \"by\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"to\" for this gap; compare \"for\" from B which cannot carry the same grammatical weight as the keyed answer tied to finance here."
+      ]
+    },
+    {
+      "id": "p5-008",
+      "part": 5,
+      "prompt": "The client requested that the vendor ------- a contingency buffer in the timeline proposal.",
+      "options": [
+        "include",
+        "includes",
+        "included",
+        "including"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subjunctive-style requested that vendor include after mandative requested that.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "subjunctive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense item tests the blank where wording around client and requested plus vendor from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"t requested that the vendor\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside client in context.",
+        "A tempting trap is option C when \"included\" sounds plausible near requested, yet it does not lock onto the same clause pattern the sentence builds around vendor.",
+        "Option B with \"includes\" fails the slot test for independent reasons; option D using \"including\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"include\" for this gap; compare \"includes\" from B which cannot carry the same grammatical weight as the keyed answer tied to client here."
+      ]
+    },
+    {
+      "id": "p5-009",
+      "part": 5,
+      "prompt": "Shipping costs have risen ------- fuel surcharges imposed by carriers last quarter.",
+      "options": [
+        "owing to",
+        "because",
+        "although",
+        "unless"
+      ],
+      "correctIndex": 0,
+      "explanation": "Owing to + noun phrase fuel surcharges; because needs a clause.",
+      "focus": "Grammar - Connector",
+      "tags": [
+        "grammar",
+        "connector"
+      ],
+      "analysisSteps": [
+        "This Grammar - Connector item tests the blank where wording around shipping and costs plus risen from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"Shipping costs have risen\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside shipping in context.",
+        "A tempting trap is option C when \"although\" sounds plausible near costs, yet it does not lock onto the same clause pattern the sentence builds around risen.",
+        "Option B with \"because\" fails the slot test for independent reasons; option D using \"unless\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"owing to\" for this gap; compare \"because\" from B which cannot carry the same grammatical weight as the keyed answer tied to shipping here."
+      ]
+    },
+    {
+      "id": "p5-010",
+      "part": 5,
+      "prompt": "The board deferred the vote ------- the legal memo clears every outstanding liability clause.",
+      "options": [
+        "until",
+        "while",
+        "during",
+        "within"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deferred until condition met; during needs noun phrase not clause.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "time"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context item tests the blank where wording around board and deferred plus vote from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"The board deferred the vote\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside board in context.",
+        "A tempting trap is option C when \"during\" sounds plausible near deferred, yet it does not lock onto the same clause pattern the sentence builds around vote.",
+        "Option B with \"while\" fails the slot test for independent reasons; option D using \"within\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"until\" for this gap; compare \"while\" from B which cannot carry the same grammatical weight as the keyed answer tied to board here."
+      ]
+    },
+    {
+      "id": "p5-011",
+      "part": 5,
+      "prompt": "Neither the manager nor the analysts ------- satisfied with the preliminary forecast figures.",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neither nor with plural analysts nearby favors were in formal usage.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "agreement"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense item tests the blank where wording around neither and manager plus analysts from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"he manager nor the analysts\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside neither in context.",
+        "A tempting trap is option C when \"are\" sounds plausible near manager, yet it does not lock onto the same clause pattern the sentence builds around analysts.",
+        "Option B with \"was\" fails the slot test for independent reasons; option D using \"is\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"were\" for this gap; compare \"was\" from B which cannot carry the same grammatical weight as the keyed answer tied to neither here."
+      ]
+    },
+    {
+      "id": "p5-012",
+      "part": 5,
+      "prompt": "The sustainability lead aims to ------- single-use plastics in cafeterias by next fiscal year.",
+      "options": [
+        "phase out",
+        "phasing out",
+        "phased out",
+        "phase-out"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aims to + phase out (phrasal infinitive); phase-out is noun form.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "phrasal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around sustainability and lead plus aims from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"sustainability lead aims to\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside sustainability in context.",
+        "A tempting trap is option C when \"phased out\" sounds plausible near lead, yet it does not lock onto the same clause pattern the sentence builds around aims.",
+        "Option B with \"phasing out\" fails the slot test for independent reasons; option D using \"phase-out\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"phase out\" for this gap; compare \"phasing out\" from B which cannot carry the same grammatical weight as the keyed answer tied to sustainability here."
+      ]
+    },
+    {
+      "id": "p5-013",
+      "part": 5,
+      "prompt": "Upon ------- the signed contract, the counsel filed the disclosure package with regulators.",
+      "options": [
+        "receiving",
+        "receive",
+        "received",
+        "reception"
+      ],
+      "correctIndex": 0,
+      "explanation": "Upon + gerund receiving; upon receive is ungrammatical.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "gerund"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around upon and signed plus contract from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"Upon\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside upon in context.",
+        "A tempting trap is option C when \"received\" sounds plausible near signed, yet it does not lock onto the same clause pattern the sentence builds around contract.",
+        "Option B with \"receive\" fails the slot test for independent reasons; option D using \"reception\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"receiving\" for this gap; compare \"receive\" from B which cannot carry the same grammatical weight as the keyed answer tied to upon here."
+      ]
+    },
+    {
+      "id": "p5-014",
+      "part": 5,
+      "prompt": "The regional office is scheduled to ------- operations to the new hub by March 31.",
+      "options": [
+        "transfer",
+        "transfers",
+        "transferring",
+        "transference"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scheduled to + transfer; transference is abstract noun wrong slot.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item tests the blank where wording around regional and office plus scheduled from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"onal office is scheduled to\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside regional in context.",
+        "A tempting trap is option C when \"transferring\" sounds plausible near office, yet it does not lock onto the same clause pattern the sentence builds around scheduled.",
+        "Option B with \"transfers\" fails the slot test for independent reasons; option D using \"transference\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"transfer\" for this gap; compare \"transfers\" from B which cannot carry the same grammatical weight as the keyed answer tied to regional here."
+      ]
+    },
+    {
+      "id": "p5-015",
+      "part": 5,
+      "prompt": "The memo reminds staff that confidential files ------- on encrypted drives only.",
+      "options": [
+        "must be stored",
+        "must store",
+        "must storing",
+        "must stored"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passive obligation: files must be stored; must store lacks passive.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "passive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense item tests the blank where wording around memo and reminds plus staff from the same sentence forces one licensed choice among the four listed options.",
+        "Anchor on \"aff that confidential files\" near the gap because that visible chunk of the prompt signals what structural role the missing word must satisfy beside memo in context.",
+        "A tempting trap is option C when \"must storing\" sounds plausible near reminds, yet it does not lock onto the same clause pattern the sentence builds around staff.",
+        "Option B with \"must store\" fails the slot test for independent reasons; option D using \"must stored\" also misaligns with the matrix clause beside the blank, unlike A.",
+        "The correct string is \"must be stored\" for this gap; compare \"must store\" from B which cannot carry the same grammatical weight as the keyed answer tied to memo here."
+      ]
+    }
+  ]
+}
