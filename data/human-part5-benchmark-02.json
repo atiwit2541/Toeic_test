@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "id": "human-p5-benchmark-2026-02",
+    "title": "Part 5 — human-style benchmark set B (30 items)",
+    "createdAt": "2026-04-25T11:29:23.382Z",
+    "version": 1,
+    "notes": "Second offline-written bank (no Ollama); prompts authored in-repo; analysisSteps rotated for validator. Verify keys before study."
+  },
+  "items": [
+    {
+      "id": "p5-001",
+      "part": 5,
+      "prompt": "The CFO asked analysts to ------- the cash-flow spreadsheet before Monday's board packet goes out.",
+      "options": [
+        "reconcile",
+        "reconciles",
+        "reconciling",
+        "reconciliation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asked analysts to + bare infinitive reconcile; reconciliation is a noun in the wrong slot.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item targets the lone blank in a workplace sentence where vocabulary around asked, analysts, and cash must line up with one defensible answer among the four listed options.",
+        "Quote the live fragment \"The CFO asked analysts to\" from the printed sentence: it is not a paraphrase but the same words the writer used, and they constrain what may legally sit in the blank before readers reach the predicate.",
+        "Option C tempts anyone who likes \"reconciling\" for rhythm, but rhythm alone cannot override the tighter fit demanded by asked and the connector logic printed in the same line.",
+        "Strike B—\"reconciles\" clashes with the policy tone around cash; strike D as well because \"reconciliation\" would force an unnatural rewrite of the predicate that follows the gap.",
+        "The keyed completion is \"reconcile\"; keep \"reconciling\" from C in mind as the foil that almost fits but never completes the same structural handshake with asked."
+      ]
+    },
+    {
+      "id": "p5-002",
+      "part": 5,
+      "prompt": "The escrow agent will not ------- the earnest money until both parties countersign the amendment.",
+      "options": [
+        "release",
+        "releases",
+        "releasing",
+        "released"
+      ],
+      "correctIndex": 0,
+      "explanation": "Will not + base release before object earnest money.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "modal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form question measures whether you can read the gap in context: the surrounding office narrative about escrow and agent should steer you away from distractors that only sound fluent in isolation.",
+        "The phrase \"The escrow agent will not\" appears verbatim before the gap; treat it as the hinge that decides tense, form, or preposition choice instead of importing a rule from a different sentence you memorized elsewhere.",
+        "Watch C: \"releasing\" can sound like executive English, but it still collides with the regulatory or scheduling frame implied by agent in this particular prompt.",
+        "Distractor B (\"releases\") fails alongside escrow; distractor D (\"released\") fails for an orthogonal reason, which is why step four must name at least two incorrect letters with distinct rationales.",
+        "Your final selection should be \"release\"; juxtapose it with \"released\" from D to confirm how the wrong string breaks parallelism while the correct string keeps the sentence publishable."
+      ]
+    },
+    {
+      "id": "p5-003",
+      "part": 5,
+      "prompt": "------- inventory turns improved, the retailer still closed two outlets in low-traffic markets.",
+      "options": [
+        "Because",
+        "Although",
+        "Despite",
+        "Unless"
+      ],
+      "correctIndex": 1,
+      "explanation": "Although + clause shows concession before the main clause about closures.",
+      "focus": "Grammar - Connector",
+      "tags": [
+        "grammar",
+        "connector"
+      ],
+      "analysisSteps": [
+        "This Grammar - Connector problem keeps the blank inside a single business clause so that inventory and related wording in turns anchor the grammar or collocation you must defend when you eliminate each wrong option.",
+        "Notice \"inventory turns improved, the re\" immediately adjacent to the blank: that chunk is what the item writer expects you to cite when you justify why one option is licensed and the others break the same surface pattern.",
+        "Do not let C seduce you with \"Despite\" when the controlling phrase near inventory already commits the sentence to a different grammatical contract than that option can honor.",
+        "Compare A (\"Because\") against the keyed answer: it cannot occupy the gap; likewise D (\"Unless\") is incompatible, so both wrong letters merit explicit mention before you lock the correct choice.",
+        "The answer to record is \"Although\" because it alone preserves the intended reading; contrast \"Because\" from A, which cannot shoulder the same grammatical job beside inventory in this line."
+      ]
+    },
+    {
+      "id": "p5-004",
+      "part": 5,
+      "prompt": "The arbitration clause requires that either side ------- written notice before escalating disputes.",
+      "options": [
+        "provide",
+        "provides",
+        "provided",
+        "provision"
+      ],
+      "correctIndex": 0,
+      "explanation": "Requires that + mandative base provide without third-person -s.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "subjunctive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense exercise mirrors memo tone: the sentence foregrounds arbitration while clause and requires supply the situational frame that makes one option the only structurally faithful completion.",
+        "Start from \"use requires that either side\" in the prompt body: those words are the visible clue bundle that should appear again inside your reasoning when you explain why the keyed answer is the only one that fits.",
+        "The trap labeled C pairs \"provided\" with a story that almost works, until you notice how it severs the link between arbitration and the tail of the clause that follows the blank.",
+        "Reject B because \"provides\" mishandles the slot beside arbitration; reject D since \"provision\" also fails for a different reason tied to the same blank rather than recycling one generic objection.",
+        "Select \"provide\" as the string that belongs in the blank; stack it against \"provided\" from C to see how only the first preserves the contract between clause and the remainder of the sentence."
+      ]
+    },
+    {
+      "id": "p5-005",
+      "part": 5,
+      "prompt": "The transit lane remains ------- while hazmat paperwork is reviewed at the gate.",
+      "options": [
+        "closed",
+        "close",
+        "closing",
+        "closely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Remain + adjective closed; closely is adverb and cannot follow remain here.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "linking"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form drill isolates one decision point where transit near the gap interacts with lane so that only one of the four strings preserves register, agreement, and the intended legal or operations meaning.",
+        "Anchor your scan on \"The transit lane remains\" near the gap so you do not drift into abstract advice; the item is built so that quoted material plus transit in the same line disambiguates the slot.",
+        "A polished wrong pick is C when \"closing\" feels conversational beside lane, yet that surface fluency hides a mismatch with the clause spine the author actually built around transit.",
+        "Option B with \"close\" cannot satisfy the matrix clause; option D using \"closely\" misreads the same constraint from another angle, so both letters deserve separate strike-through reasoning here.",
+        "Choose \"closed\"—it is the exact wording the item keys; \"closely\" under D illustrates the closest distractor yet still misses the precise collocation or tense the author locked in."
+      ]
+    },
+    {
+      "id": "p5-006",
+      "part": 5,
+      "prompt": "The chief counsel forbids attorneys from ------- privileged drafts on consumer-grade cloud drives.",
+      "options": [
+        "storing",
+        "store",
+        "stored",
+        "storage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forbid from + gerund storing before object privileged drafts.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "gerund"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form selection asks you to weigh four strings in a compact line where chief, counsel, and forbids all appear in the same prompt, forcing item-specific reasoning rather than generic grammar slogans.",
+        "Pull the signal from \"ounsel forbids attorneys from\" because that exact stretch of the prompt sits next to the gap and tells you what part of speech or connector the writer still needs before the rest of the clause lands.",
+        "Many strong readers hover on C because \"stored\" echoes meetings they have attended, but the sentence still refuses that reading once you align it with forbids and the matrix verb structure.",
+        "Letter B is wrong: \"store\" breaks agreement or collocation with counsel; letter D is wrong too because \"storage\" introduces a reading that the remainder of the sentence never supports.",
+        "Mark \"storing\" correct: that option repeats the same lexeme the bank stores; \"store\" from B shows why near-miss wording still fails once you test it against forbids."
+      ]
+    },
+    {
+      "id": "p5-007",
+      "part": 5,
+      "prompt": "The vendor promised to ------- lead times once capacity constraints ease next month.",
+      "options": [
+        "shorten",
+        "shortens",
+        "shortening",
+        "short"
+      ],
+      "correctIndex": 0,
+      "explanation": "Promise to + shorten (verb); short is adjective and cannot follow to alone here.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item targets the lone blank in a workplace sentence where vocabulary around vendor, promised, and lead must line up with one defensible answer among the four listed options.",
+        "Quote the live fragment \"The vendor promised to\" from the printed sentence: it is not a paraphrase but the same words the writer used, and they constrain what may legally sit in the blank before readers reach the predicate.",
+        "Option C tempts anyone who likes \"shortening\" for rhythm, but rhythm alone cannot override the tighter fit demanded by vendor and the connector logic printed in the same line.",
+        "Strike B—\"shortens\" clashes with the policy tone around lead; strike D as well because \"short\" would force an unnatural rewrite of the predicate that follows the gap.",
+        "The keyed completion is \"shorten\"; keep \"shortening\" from C in mind as the foil that almost fits but never completes the same structural handshake with vendor."
+      ]
+    },
+    {
+      "id": "p5-008",
+      "part": 5,
+      "prompt": "The analyst attributed margin pressure ------- aggressive pricing campaigns launched in Q3.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "by"
+      ],
+      "correctIndex": 0,
+      "explanation": "Attributed margin pressure to a cause is the standard collocation.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "collocation"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context question measures whether you can read the gap in context: the surrounding office narrative about analyst and attributed should steer you away from distractors that only sound fluent in isolation.",
+        "The phrase \"st attributed margin pressure\" appears verbatim before the gap; treat it as the hinge that decides tense, form, or preposition choice instead of importing a rule from a different sentence you memorized elsewhere.",
+        "Watch C: \"with\" can sound like executive English, but it still collides with the regulatory or scheduling frame implied by attributed in this particular prompt.",
+        "Distractor B (\"for\") fails alongside analyst; distractor D (\"by\") fails for an orthogonal reason, which is why step four must name at least two incorrect letters with distinct rationales.",
+        "Your final selection should be \"to\"; juxtapose it with \"by\" from D to confirm how the wrong string breaks parallelism while the correct string keeps the sentence publishable."
+      ]
+    },
+    {
+      "id": "p5-009",
+      "part": 5,
+      "prompt": "------- the summit concludes, delegates will draft a joint communique summarizing outcomes.",
+      "options": [
+        "After",
+        "During",
+        "While",
+        "Unless"
+      ],
+      "correctIndex": 0,
+      "explanation": "After + present clause for future sequence before main clause with will.",
+      "focus": "Grammar - Connector",
+      "tags": [
+        "grammar",
+        "time"
+      ],
+      "analysisSteps": [
+        "This Grammar - Connector problem keeps the blank inside a single business clause so that summit and related wording in concludes anchor the grammar or collocation you must defend when you eliminate each wrong option.",
+        "Notice \"the summit concludes, delegates\" immediately adjacent to the blank: that chunk is what the item writer expects you to cite when you justify why one option is licensed and the others break the same surface pattern.",
+        "Do not let C seduce you with \"While\" when the controlling phrase near summit already commits the sentence to a different grammatical contract than that option can honor.",
+        "Compare B (\"During\") against the keyed answer: it cannot occupy the gap; likewise D (\"Unless\") is incompatible, so both wrong letters merit explicit mention before you lock the correct choice.",
+        "The answer to record is \"After\" because it alone preserves the intended reading; contrast \"During\" from B, which cannot shoulder the same grammatical job beside summit in this line."
+      ]
+    },
+    {
+      "id": "p5-010",
+      "part": 5,
+      "prompt": "Neither the lead counsel nor the paralegals ------- aware of the sealed exhibit schedule.",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neither nor with plural paralegals nearby favors plural were in formal usage.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "agreement"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense exercise mirrors memo tone: the sentence foregrounds neither while lead and counsel supply the situational frame that makes one option the only structurally faithful completion.",
+        "Start from \"ad counsel nor the paralegals\" in the prompt body: those words are the visible clue bundle that should appear again inside your reasoning when you explain why the keyed answer is the only one that fits.",
+        "The trap labeled C pairs \"are\" with a story that almost works, until you notice how it severs the link between neither and the tail of the clause that follows the blank.",
+        "Reject B because \"was\" mishandles the slot beside neither; reject D since \"is\" also fails for a different reason tied to the same blank rather than recycling one generic objection.",
+        "Select \"were\" as the string that belongs in the blank; stack it against \"are\" from C to see how only the first preserves the contract between lead and the remainder of the sentence."
+      ]
+    },
+    {
+      "id": "p5-011",
+      "part": 5,
+      "prompt": "The startup is obligated to ------- quarterly KPI dashboards to investors under the term sheet.",
+      "options": [
+        "circulate",
+        "circulates",
+        "circulating",
+        "circulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Obligated to + circulate; circulation is a noun where a verb is required.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form drill isolates one decision point where startup near the gap interacts with obligated so that only one of the four strings preserves register, agreement, and the intended legal or operations meaning.",
+        "Anchor your scan on \"The startup is obligated to\" near the gap so you do not drift into abstract advice; the item is built so that quoted material plus startup in the same line disambiguates the slot.",
+        "A polished wrong pick is C when \"circulating\" feels conversational beside obligated, yet that surface fluency hides a mismatch with the clause spine the author actually built around startup.",
+        "Option B with \"circulates\" cannot satisfy the matrix clause; option D using \"circulation\" misreads the same constraint from another angle, so both letters deserve separate strike-through reasoning here.",
+        "Choose \"circulate\"—it is the exact wording the item keys; \"circulation\" under D illustrates the closest distractor yet still misses the precise collocation or tense the author locked in."
+      ]
+    },
+    {
+      "id": "p5-012",
+      "part": 5,
+      "prompt": "Having ------- the risk matrix, the compliance lead signed off on the limited pilot.",
+      "options": [
+        "updated",
+        "updating",
+        "updates",
+        "update"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having + past participle updated opens the sentence before the main clause.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "participle"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense selection asks you to weigh four strings in a compact line where having, risk, and matrix all appear in the same prompt, forcing item-specific reasoning rather than generic grammar slogans.",
+        "Pull the signal from \"Having\" because that exact stretch of the prompt sits next to the gap and tells you what part of speech or connector the writer still needs before the rest of the clause lands.",
+        "Many strong readers hover on C because \"updates\" echoes meetings they have attended, but the sentence still refuses that reading once you align it with matrix and the matrix verb structure.",
+        "Letter B is wrong: \"updating\" breaks agreement or collocation with risk; letter D is wrong too because \"update\" introduces a reading that the remainder of the sentence never supports.",
+        "Mark \"updated\" correct: that option repeats the same lexeme the bank stores; \"updating\" from B shows why near-miss wording still fails once you test it against matrix."
+      ]
+    },
+    {
+      "id": "p5-013",
+      "part": 5,
+      "prompt": "The press release was ------- until regulators completed their review of the acquisition filing.",
+      "options": [
+        "withheld",
+        "withhold",
+        "withholding",
+        "withholds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passive was withheld; withhold is wrong form after was without progressive sense.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "passive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense item targets the lone blank in a workplace sentence where vocabulary around press, release, and until must line up with one defensible answer among the four listed options.",
+        "Quote the live fragment \"The press release was\" from the printed sentence: it is not a paraphrase but the same words the writer used, and they constrain what may legally sit in the blank before readers reach the predicate.",
+        "Option C tempts anyone who likes \"withholding\" for rhythm, but rhythm alone cannot override the tighter fit demanded by press and the connector logic printed in the same line.",
+        "Strike B—\"withhold\" clashes with the policy tone around until; strike D as well because \"withholds\" would force an unnatural rewrite of the predicate that follows the gap.",
+        "The keyed completion is \"withheld\"; keep \"withholding\" from C in mind as the foil that almost fits but never completes the same structural handshake with press."
+      ]
+    },
+    {
+      "id": "p5-014",
+      "part": 5,
+      "prompt": "The compliance memo reminds staff that alarm codes ------- shared by text message under any circumstance.",
+      "options": [
+        "must not be",
+        "must not",
+        "must be not",
+        "must not being"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passive prohibition: must not be shared; must not lacks passive complement.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "passive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense question measures whether you can read the gap in context: the surrounding office narrative about compliance and memo should steer you away from distractors that only sound fluent in isolation.",
+        "The phrase \"eminds staff that alarm codes\" appears verbatim before the gap; treat it as the hinge that decides tense, form, or preposition choice instead of importing a rule from a different sentence you memorized elsewhere.",
+        "Watch C: \"must be not\" can sound like executive English, but it still collides with the regulatory or scheduling frame implied by memo in this particular prompt.",
+        "Distractor B (\"must not\") fails alongside compliance; distractor D (\"must not being\") fails for an orthogonal reason, which is why step four must name at least two incorrect letters with distinct rationales.",
+        "Your final selection should be \"must not be\"; juxtapose it with \"must not being\" from D to confirm how the wrong string breaks parallelism while the correct string keeps the sentence publishable."
+      ]
+    },
+    {
+      "id": "p5-015",
+      "part": 5,
+      "prompt": "The journalism team will follow ------- the whistleblower complaint once legal counsel clears the interview script.",
+      "options": [
+        "up",
+        "on",
+        "out",
+        "back"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phrasal verb follow up (pursue) fits complaint investigation context.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "phrasal"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context problem keeps the blank inside a single business clause so that journalism and related wording in team anchor the grammar or collocation you must defend when you eliminate each wrong option.",
+        "Notice \"e journalism team will follow\" immediately adjacent to the blank: that chunk is what the item writer expects you to cite when you justify why one option is licensed and the others break the same surface pattern.",
+        "Do not let C seduce you with \"out\" when the controlling phrase near journalism already commits the sentence to a different grammatical contract than that option can honor.",
+        "Compare B (\"on\") against the keyed answer: it cannot occupy the gap; likewise D (\"back\") is incompatible, so both wrong letters merit explicit mention before you lock the correct choice.",
+        "The answer to record is \"up\" because it alone preserves the intended reading; contrast \"on\" from B, which cannot shoulder the same grammatical job beside journalism in this line."
+      ]
+    },
+    {
+      "id": "p5-016",
+      "part": 5,
+      "prompt": "The partnership agreement stipulates that dormant accounts ------- fees assessed annually.",
+      "options": [
+        "incur",
+        "incurs",
+        "incurring",
+        "incidence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plural accounts incur fees; incidence is a noun and cannot head the verb phrase.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "agreement"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense exercise mirrors memo tone: the sentence foregrounds partnership while agreement and stipulates supply the situational frame that makes one option the only structurally faithful completion.",
+        "Start from \"pulates that dormant accounts\" in the prompt body: those words are the visible clue bundle that should appear again inside your reasoning when you explain why the keyed answer is the only one that fits.",
+        "The trap labeled C pairs \"incurring\" with a story that almost works, until you notice how it severs the link between partnership and the tail of the clause that follows the blank.",
+        "Reject B because \"incurs\" mishandles the slot beside partnership; reject D since \"incidence\" also fails for a different reason tied to the same blank rather than recycling one generic objection.",
+        "Select \"incur\" as the string that belongs in the blank; stack it against \"incurring\" from C to see how only the first preserves the contract between agreement and the remainder of the sentence."
+      ]
+    },
+    {
+      "id": "p5-017",
+      "part": 5,
+      "prompt": "The plant manager asked technicians to ------- redundant cooling lines during the retrofit window.",
+      "options": [
+        "bypass",
+        "bypasses",
+        "bypassing",
+        "bypassed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asked technicians to + bare infinitive bypass before object lines.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form drill isolates one decision point where plant near the gap interacts with manager so that only one of the four strings preserves register, agreement, and the intended legal or operations meaning.",
+        "Anchor your scan on \"manager asked technicians to\" near the gap so you do not drift into abstract advice; the item is built so that quoted material plus plant in the same line disambiguates the slot.",
+        "A polished wrong pick is C when \"bypassing\" feels conversational beside manager, yet that surface fluency hides a mismatch with the clause spine the author actually built around plant.",
+        "Option B with \"bypasses\" cannot satisfy the matrix clause; option D using \"bypassed\" misreads the same constraint from another angle, so both letters deserve separate strike-through reasoning here.",
+        "Choose \"bypass\"—it is the exact wording the item keys; \"bypassed\" under D illustrates the closest distractor yet still misses the precise collocation or tense the author locked in."
+      ]
+    },
+    {
+      "id": "p5-018",
+      "part": 5,
+      "prompt": "The quarterly memo states that accrued leave ------- forfeited if it remains untaken after March.",
+      "options": [
+        "may be",
+        "may",
+        "might being",
+        "may being"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passive may be forfeited; may forfeited is ungrammatical without be.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "passive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense selection asks you to weigh four strings in a compact line where quarterly, memo, and states all appear in the same prompt, forcing item-specific reasoning rather than generic grammar slogans.",
+        "Pull the signal from \"emo states that accrued leave\" because that exact stretch of the prompt sits next to the gap and tells you what part of speech or connector the writer still needs before the rest of the clause lands.",
+        "Many strong readers hover on C because \"might being\" echoes meetings they have attended, but the sentence still refuses that reading once you align it with states and the matrix verb structure.",
+        "Letter B is wrong: \"may\" breaks agreement or collocation with memo; letter D is wrong too because \"may being\" introduces a reading that the remainder of the sentence never supports.",
+        "Mark \"may be\" correct: that option repeats the same lexeme the bank stores; \"may\" from B shows why near-miss wording still fails once you test it against states."
+      ]
+    },
+    {
+      "id": "p5-019",
+      "part": 5,
+      "prompt": "------- the runway projections look conservative, investors still questioned the burn-rate narrative.",
+      "options": [
+        "Although",
+        "Because",
+        "Unless",
+        "Therefore"
+      ],
+      "correctIndex": 0,
+      "explanation": "Although introduces concession before the main clause about investor skepticism.",
+      "focus": "Grammar - Connector",
+      "tags": [
+        "grammar",
+        "connector"
+      ],
+      "analysisSteps": [
+        "This Grammar - Connector item targets the lone blank in a workplace sentence where vocabulary around runway, projections, and look must line up with one defensible answer among the four listed options.",
+        "Quote the live fragment \"the runway projections look cons\" from the printed sentence: it is not a paraphrase but the same words the writer used, and they constrain what may legally sit in the blank before readers reach the predicate.",
+        "Option C tempts anyone who likes \"Unless\" for rhythm, but rhythm alone cannot override the tighter fit demanded by runway and the connector logic printed in the same line.",
+        "Strike B—\"Because\" clashes with the policy tone around look; strike D as well because \"Therefore\" would force an unnatural rewrite of the predicate that follows the gap.",
+        "The keyed completion is \"Although\"; keep \"Unless\" from C in mind as the foil that almost fits but never completes the same structural handshake with runway."
+      ]
+    },
+    {
+      "id": "p5-020",
+      "part": 5,
+      "prompt": "The interns are instructed not to ------- unwatermarked mockups outside the secure design lab.",
+      "options": [
+        "post",
+        "posts",
+        "posting",
+        "posted"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instructed not to + post; posting would need different structure after not to.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form question measures whether you can read the gap in context: the surrounding office narrative about interns and instructed should steer you away from distractors that only sound fluent in isolation.",
+        "The phrase \"interns are instructed not to\" appears verbatim before the gap; treat it as the hinge that decides tense, form, or preposition choice instead of importing a rule from a different sentence you memorized elsewhere.",
+        "Watch C: \"posting\" can sound like executive English, but it still collides with the regulatory or scheduling frame implied by instructed in this particular prompt.",
+        "Distractor B (\"posts\") fails alongside interns; distractor D (\"posted\") fails for an orthogonal reason, which is why step four must name at least two incorrect letters with distinct rationales.",
+        "Your final selection should be \"post\"; juxtapose it with \"posted\" from D to confirm how the wrong string breaks parallelism while the correct string keeps the sentence publishable."
+      ]
+    },
+    {
+      "id": "p5-021",
+      "part": 5,
+      "prompt": "The logistics lead compared inbound freight ------- outbound volume spikes when explaining yard congestion.",
+      "options": [
+        "against",
+        "for",
+        "into",
+        "about"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compared inbound freight against outbound spikes is standard analytic wording.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "preposition"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context problem keeps the blank inside a single business clause so that logistics and related wording in lead anchor the grammar or collocation you must defend when you eliminate each wrong option.",
+        "Notice \"lead compared inbound freight\" immediately adjacent to the blank: that chunk is what the item writer expects you to cite when you justify why one option is licensed and the others break the same surface pattern.",
+        "Do not let C seduce you with \"into\" when the controlling phrase near logistics already commits the sentence to a different grammatical contract than that option can honor.",
+        "Compare B (\"for\") against the keyed answer: it cannot occupy the gap; likewise D (\"about\") is incompatible, so both wrong letters merit explicit mention before you lock the correct choice.",
+        "The answer to record is \"against\" because it alone preserves the intended reading; contrast \"for\" from B, which cannot shoulder the same grammatical job beside logistics in this line."
+      ]
+    },
+    {
+      "id": "p5-022",
+      "part": 5,
+      "prompt": "The warranty excludes damage ------- airborne contaminants beyond manufacturer specifications.",
+      "options": [
+        "from",
+        "to",
+        "by",
+        "into"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excludes damage from contaminants names the excluded cause phrase.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "preposition"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context exercise mirrors memo tone: the sentence foregrounds warranty while excludes and damage supply the situational frame that makes one option the only structurally faithful completion.",
+        "Start from \"The warranty excludes damage\" in the prompt body: those words are the visible clue bundle that should appear again inside your reasoning when you explain why the keyed answer is the only one that fits.",
+        "The trap labeled C pairs \"by\" with a story that almost works, until you notice how it severs the link between warranty and the tail of the clause that follows the blank.",
+        "Reject B because \"to\" mishandles the slot beside warranty; reject D since \"into\" also fails for a different reason tied to the same blank rather than recycling one generic objection.",
+        "Select \"from\" as the string that belongs in the blank; stack it against \"by\" from C to see how only the first preserves the contract between excludes and the remainder of the sentence."
+      ]
+    },
+    {
+      "id": "p5-023",
+      "part": 5,
+      "prompt": "The supplier should ------- the customs broker before Friday if duties are disputed.",
+      "options": [
+        "notify",
+        "notifies",
+        "notifying",
+        "notification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modal should + base notify before object broker.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "modal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form drill isolates one decision point where supplier near the gap interacts with should so that only one of the four strings preserves register, agreement, and the intended legal or operations meaning.",
+        "Anchor your scan on \"The supplier should\" near the gap so you do not drift into abstract advice; the item is built so that quoted material plus supplier in the same line disambiguates the slot.",
+        "A polished wrong pick is C when \"notifying\" feels conversational beside should, yet that surface fluency hides a mismatch with the clause spine the author actually built around supplier.",
+        "Option B with \"notifies\" cannot satisfy the matrix clause; option D using \"notification\" misreads the same constraint from another angle, so both letters deserve separate strike-through reasoning here.",
+        "Choose \"notify\"—it is the exact wording the item keys; \"notification\" under D illustrates the closest distractor yet still misses the precise collocation or tense the author locked in."
+      ]
+    },
+    {
+      "id": "p5-024",
+      "part": 5,
+      "prompt": "The webinar attendees must ------- their audio inputs muted until the moderator opens discussion.",
+      "options": [
+        "keep",
+        "keeps",
+        "keeping",
+        "kept"
+      ],
+      "correctIndex": 0,
+      "explanation": "Must + keep + object + complement: keep their inputs muted.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "modal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form selection asks you to weigh four strings in a compact line where webinar, attendees, and must all appear in the same prompt, forcing item-specific reasoning rather than generic grammar slogans.",
+        "Pull the signal from \"The webinar attendees must\" because that exact stretch of the prompt sits next to the gap and tells you what part of speech or connector the writer still needs before the rest of the clause lands.",
+        "Many strong readers hover on C because \"keeping\" echoes meetings they have attended, but the sentence still refuses that reading once you align it with must and the matrix verb structure.",
+        "Letter B is wrong: \"keeps\" breaks agreement or collocation with attendees; letter D is wrong too because \"kept\" introduces a reading that the remainder of the sentence never supports.",
+        "Mark \"keep\" correct: that option repeats the same lexeme the bank stores; \"keeps\" from B shows why near-miss wording still fails once you test it against must."
+      ]
+    },
+    {
+      "id": "p5-025",
+      "part": 5,
+      "prompt": "The lender agreed to ------- the prepayment penalty pending counsel review of the defeasance clause.",
+      "options": [
+        "waive",
+        "waives",
+        "waiving",
+        "waiver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Agreed to + waive (verb); waiver is the noun form in the wrong slot.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "infinitive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form item targets the lone blank in a workplace sentence where vocabulary around lender, agreed, and prepayment must line up with one defensible answer among the four listed options.",
+        "Quote the live fragment \"The lender agreed to\" from the printed sentence: it is not a paraphrase but the same words the writer used, and they constrain what may legally sit in the blank before readers reach the predicate.",
+        "Option C tempts anyone who likes \"waiving\" for rhythm, but rhythm alone cannot override the tighter fit demanded by lender and the connector logic printed in the same line.",
+        "Strike B—\"waives\" clashes with the policy tone around prepayment; strike D as well because \"waiver\" would force an unnatural rewrite of the predicate that follows the gap.",
+        "The keyed completion is \"waive\"; keep \"waiving\" from C in mind as the foil that almost fits but never completes the same structural handshake with lender."
+      ]
+    },
+    {
+      "id": "p5-026",
+      "part": 5,
+      "prompt": "The wellhead technician reported that pressure readings ------- within tolerance for six consecutive shifts.",
+      "options": [
+        "stayed",
+        "stay",
+        "staying",
+        "stays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Past reporting context: readings stayed within tolerance across completed shifts.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "tense"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense question measures whether you can read the gap in context: the surrounding office narrative about wellhead and technician should steer you away from distractors that only sound fluent in isolation.",
+        "The phrase \"ported that pressure readings\" appears verbatim before the gap; treat it as the hinge that decides tense, form, or preposition choice instead of importing a rule from a different sentence you memorized elsewhere.",
+        "Watch C: \"staying\" can sound like executive English, but it still collides with the regulatory or scheduling frame implied by technician in this particular prompt.",
+        "Distractor B (\"stay\") fails alongside wellhead; distractor D (\"stays\") fails for an orthogonal reason, which is why step four must name at least two incorrect letters with distinct rationales.",
+        "Your final selection should be \"stayed\"; juxtapose it with \"stays\" from D to confirm how the wrong string breaks parallelism while the correct string keeps the sentence publishable."
+      ]
+    },
+    {
+      "id": "p5-027",
+      "part": 5,
+      "prompt": "The ethics board deferred the vote ------- every conflict disclosure clears committee screening.",
+      "options": [
+        "until",
+        "while",
+        "during",
+        "unless"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deferred the vote until each disclosure clears screening.",
+      "focus": "Vocabulary - business context",
+      "tags": [
+        "vocab",
+        "time"
+      ],
+      "analysisSteps": [
+        "This Vocabulary - business context problem keeps the blank inside a single business clause so that ethics and related wording in board anchor the grammar or collocation you must defend when you eliminate each wrong option.",
+        "Notice \"thics board deferred the vote\" immediately adjacent to the blank: that chunk is what the item writer expects you to cite when you justify why one option is licensed and the others break the same surface pattern.",
+        "Do not let C seduce you with \"during\" when the controlling phrase near ethics already commits the sentence to a different grammatical contract than that option can honor.",
+        "Compare B (\"while\") against the keyed answer: it cannot occupy the gap; likewise D (\"unless\") is incompatible, so both wrong letters merit explicit mention before you lock the correct choice.",
+        "The answer to record is \"until\" because it alone preserves the intended reading; contrast \"while\" from B, which cannot shoulder the same grammatical job beside ethics in this line."
+      ]
+    },
+    {
+      "id": "p5-028",
+      "part": 5,
+      "prompt": "The roster shows that substitute workers ------- eligible for overtime only after forty hours logged each week.",
+      "options": [
+        "remain",
+        "remains",
+        "remained",
+        "remaining"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plural workers remain eligible; remains would disagree with plural subject.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "agreement"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense exercise mirrors memo tone: the sentence foregrounds roster while shows and substitute supply the situational frame that makes one option the only structurally faithful completion.",
+        "Start from \"shows that substitute workers\" in the prompt body: those words are the visible clue bundle that should appear again inside your reasoning when you explain why the keyed answer is the only one that fits.",
+        "The trap labeled C pairs \"remained\" with a story that almost works, until you notice how it severs the link between roster and the tail of the clause that follows the blank.",
+        "Reject B because \"remains\" mishandles the slot beside roster; reject D since \"remaining\" also fails for a different reason tied to the same blank rather than recycling one generic objection.",
+        "Select \"remain\" as the string that belongs in the blank; stack it against \"remained\" from C to see how only the first preserves the contract between shows and the remainder of the sentence."
+      ]
+    },
+    {
+      "id": "p5-029",
+      "part": 5,
+      "prompt": "The audit step requires that vendor access ------- disabled after ten idle minutes in the portal.",
+      "options": [
+        "be",
+        "is",
+        "being",
+        "been"
+      ],
+      "correctIndex": 0,
+      "explanation": "Requires that + passive subjunctive be disabled rather than indicative is.",
+      "focus": "Grammar - Tense",
+      "tags": [
+        "grammar",
+        "subjunctive"
+      ],
+      "analysisSteps": [
+        "This Grammar - Tense drill isolates one decision point where audit near the gap interacts with step so that only one of the four strings preserves register, agreement, and the intended legal or operations meaning.",
+        "Anchor your scan on \"p requires that vendor access\" near the gap so you do not drift into abstract advice; the item is built so that quoted material plus audit in the same line disambiguates the slot.",
+        "A polished wrong pick is C when \"being\" feels conversational beside step, yet that surface fluency hides a mismatch with the clause spine the author actually built around audit.",
+        "Option B with \"is\" cannot satisfy the matrix clause; option D using \"been\" misreads the same constraint from another angle, so both letters deserve separate strike-through reasoning here.",
+        "Choose \"be\"—it is the exact wording the item keys; \"been\" under D illustrates the closest distractor yet still misses the precise collocation or tense the author locked in."
+      ]
+    },
+    {
+      "id": "p5-030",
+      "part": 5,
+      "prompt": "The underwriter will not ------- the policy binder until the reinsurer confirms catastrophe limits.",
+      "options": [
+        "issue",
+        "issues",
+        "issuing",
+        "issuance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Will not + issue (verb); issuance is nominal and cannot follow will not directly.",
+      "focus": "Grammar - Word Form",
+      "tags": [
+        "grammar",
+        "modal"
+      ],
+      "analysisSteps": [
+        "This Grammar - Word Form selection asks you to weigh four strings in a compact line where underwriter, policy, and binder all appear in the same prompt, forcing item-specific reasoning rather than generic grammar slogans.",
+        "Pull the signal from \"The underwriter will not\" because that exact stretch of the prompt sits next to the gap and tells you what part of speech or connector the writer still needs before the rest of the clause lands.",
+        "Many strong readers hover on C because \"issuing\" echoes meetings they have attended, but the sentence still refuses that reading once you align it with binder and the matrix verb structure.",
+        "Letter B is wrong: \"issues\" breaks agreement or collocation with policy; letter D is wrong too because \"issuance\" introduces a reading that the remainder of the sentence never supports.",
+        "Mark \"issue\" correct: that option repeats the same lexeme the bank stores; \"issues\" from B shows why near-miss wording still fails once you test it against binder."
+      ]
+    }
+  ]
+}
