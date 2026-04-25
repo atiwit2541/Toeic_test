@@ -200,6 +200,141 @@ const rawItems = [
     explanation: "Passive obligation: files must be stored; must store lacks passive.",
     tags: ["grammar", "passive"],
   },
+  {
+    prompt:
+      "The audit findings suggest that the controller ------- a second review before sign-off.",
+    options: ["conduct", "conducts", "conducted", "conducting"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "Mandative suggest that + base verb conduct for US formal style.",
+    tags: ["grammar", "subjunctive"],
+  },
+  {
+    prompt:
+      "The line manager is responsible ------- onboarding paperwork before day one.",
+    options: ["for", "to", "with", "by"],
+    correctIndex: 0,
+    focus: "Vocabulary - business context",
+    explanation: "Responsible for + noun phrase is standard collocation.",
+    tags: ["vocab", "preposition"],
+  },
+  {
+    prompt:
+      "The contractor will deliver the mockups ------- next Thursday unless the brief changes again.",
+    options: ["by", "until", "since", "while"],
+    correctIndex: 0,
+    focus: "Vocabulary - business context",
+    explanation: "by next Thursday = deadline for delivery.",
+    tags: ["vocab", "time"],
+  },
+  {
+    prompt:
+      "The regulator warned that lax reporting ------- trigger penalties after hearings conclude.",
+    options: ["could", "can", "should", "may"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "could trigger expresses plausible consequence in formal warning tone.",
+    tags: ["grammar", "modal"],
+  },
+  {
+    prompt:
+      "The interns should not ------- proprietary screenshots outside the training room.",
+    options: ["remove", "removes", "removing", "removal"],
+    correctIndex: 0,
+    focus: "Grammar - Word Form",
+    explanation: "should not + base verb remove before object screenshots.",
+    tags: ["grammar", "modal"],
+  },
+  {
+    prompt:
+      "The CFO stressed accuracy ------- speed when reviewing year-end adjustments.",
+    options: ["over", "than", "against", "into"],
+    correctIndex: 0,
+    focus: "Vocabulary - business context",
+    explanation: "accuracy over speed = priority preposition.",
+    tags: ["vocab", "priority"],
+  },
+  {
+    prompt:
+      "The franchisee agreed to ------- royalty payments weekly during the pilot program.",
+    options: ["remit", "remits", "remitting", "remittance"],
+    correctIndex: 0,
+    focus: "Grammar - Word Form",
+    explanation: "agree to + remit (bare infinitive); remittance is noun.",
+    tags: ["grammar", "infinitive"],
+  },
+  {
+    prompt:
+      "The invoice must be ------- within thirty days to avoid late fees.",
+    options: ["paid", "pay", "paying", "payment"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "must be paid passive; pay wrong without passive marking.",
+    tags: ["grammar", "passive"],
+  },
+  {
+    prompt:
+      "If the server migration ------- tonight, support will extend shifts until noon.",
+    options: ["occurs", "will occur", "occurred", "occurring"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "If-clause present for future: occurs, not will occur.",
+    tags: ["grammar", "conditional"],
+  },
+  {
+    prompt:
+      "The committee prefers that the minutes ------- unsigned until the chair reviews them.",
+    options: ["remain", "remains", "remained", "remaining"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "prefer that + subjunctive remain without -s.",
+    tags: ["grammar", "subjunctive"],
+  },
+  {
+    prompt:
+      "The new policy prohibits employees from ------- client lists on personal devices.",
+    options: ["storing", "store", "stored", "storage"],
+    correctIndex: 0,
+    focus: "Grammar - Word Form",
+    explanation: "from + gerund storing after prohibit employees from.",
+    tags: ["grammar", "gerund"],
+  },
+  {
+    prompt:
+      "The dashboard tracks any order that ------- idle in the queue for more than twelve hours.",
+    options: ["sits", "sit", "sat", "sitting"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "Relative clause: order that sits — singular agreement.",
+    tags: ["grammar", "agreement"],
+  },
+  {
+    prompt:
+      "Legal counsel advised delaying the ------- until the patent search finishes.",
+    options: ["announcement", "announce", "announced", "announcing"],
+    correctIndex: 0,
+    focus: "Grammar - Word Form",
+    explanation: "delaying the + noun announcement before until clause.",
+    tags: ["grammar", "word-form"],
+  },
+  {
+    prompt:
+      "The workers have already ------- the cabling before the inspector arrives tomorrow.",
+    options: ["run", "ran", "running", "runs"],
+    correctIndex: 0,
+    focus: "Grammar - Tense",
+    explanation: "Present perfect: have run (past participle run); ran is simple past wrong here.",
+    tags: ["grammar", "perfect"],
+  },
+  {
+    prompt:
+      "The partnership will lapse ------- both sides sign the extension addendum.",
+    options: ["unless", "until", "because", "although"],
+    correctIndex: 0,
+    focus: "Grammar - Connector",
+    explanation: "unless both sign = lapses if they do not sign (conditional protection).",
+    tags: ["grammar", "connector"],
+  },
 ];
 
 const items = rawItems.map((r, i) => ({
@@ -217,10 +352,10 @@ const items = rawItems.map((r, i) => ({
 const bank = {
   meta: {
     id: "part5-extra-set-01",
-    title: "Part 5 — extra practice set (15 items)",
+    title: "Part 5 — extra practice set (30 items)",
     createdAt: new Date().toISOString(),
-    version: 1,
-    notes: "Extra bank for app; verify answers before study.",
+    version: 2,
+    notes: "Extra bank for app (30 items, exam-style count); verify answers before study.",
   },
   items,
 };
